@@ -44,9 +44,17 @@ export function renderClassificacao(el, estado) {
     <tbody></tbody>
   `;
   const tbody = tabela.querySelector('tbody');
+  // Líder (menor posição) e lanterninha (maior posição). Só destaca se houver diferença
+  // de posições (no início, com todos empatados, não faz sentido pintar nada).
+  const posicoes = ranking.map((l) => l.posicao);
+  const primeira = Math.min(...posicoes);
+  const ultima = Math.max(...posicoes);
+  const temRanking = ultima > primeira;
   for (const linha of ranking) {
     const tr = document.createElement('tr');
     if (linha.posicao === 1) tr.classList.add('pos-1');
+    if (temRanking && linha.posicao === primeira) tr.classList.add('linha-lider');
+    else if (temRanking && linha.posicao === ultima) tr.classList.add('linha-lanterna');
     tr.innerHTML = `<td>${linha.posicao}</td><td>${escapeHtml(linha.exibicao)}</td><td>${linha.pontos}</td><td>${linha.cravadas}</td>`;
     tbody.appendChild(tr);
   }

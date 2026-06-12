@@ -11,6 +11,8 @@
   --texto-fraco: #b8ac8a;
   --borda: #3a3424;
   --destaque: var(--dourado);
+  --linha-encerrada: #4a221d;
+  --linha-hoje: #143a26;
 }
 [data-tema="claro"] {
   --bg: #f7f4ec;
@@ -19,6 +21,8 @@
   --texto-fraco: #6b6248;
   --borda: #ddd4bf;
   --destaque: #b8902a;
+  --linha-encerrada: #fadbd4;
+  --linha-hoje: #d6efdd;
 }
 * { box-sizing: border-box; }
 body {
@@ -136,6 +140,15 @@ th { color: var(--destaque); }
   border-right: 1px solid var(--borda); z-index: 1;
 }
 .tabela-palpites th:first-child { z-index: 2; }
+/* Linhas destacadas: jogo encerrado (vermelho) ou jogo de hoje (verde) */
+.tabela-palpites tbody tr.linha-encerrada td { background: var(--linha-encerrada); }
+.tabela-palpites tbody tr.linha-hoje td { background: var(--linha-hoje); }
+.legenda-todos { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin: 0 0 .8rem; font-size: .85rem; color: var(--texto-fraco); }
+.legenda-todos > span { display: inline-flex; align-items: center; gap: .4rem; }
+.legenda-cor { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--borda); display: inline-block; }
+/* Classificação: líder (verde) e lanterninha (vermelho) — reaproveita as cores das linhas */
+tr.linha-lider td { background: var(--linha-hoje); }
+tr.linha-lanterna td { background: var(--linha-encerrada); }
 .pos-1 { color: var(--dourado); font-weight: 700; }
 .seletor { padding: .5rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg-card); color: var(--texto); }
 .btn { background: var(--destaque); color: #12100c; border: none; padding: .5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
