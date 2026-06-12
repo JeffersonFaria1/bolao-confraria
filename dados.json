@@ -199,6 +199,14 @@
       "G02": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G03": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Gabriel": {
@@ -218,6 +226,14 @@
     "Forlan": {
       "G02": {
         "mandante": 1,
+        "visitante": 1
+      },
+      "G03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G04": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -256,7 +272,36 @@
       "visitante": 1
     }
   },
-  "palpitesBonus": {},
+  "palpitesBonus": {
+    "Murilo": {
+      "campeao": "POR",
+      "vice": "FRA",
+      "artilheiro": "Cristiano Ronaldo",
+      "desempenhoBrasil": "oitavas",
+      "neymarMarca": true
+    },
+    "Vinícius": {
+      "campeao": "POR",
+      "vice": "FRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "semifinal",
+      "neymarMarca": true
+    },
+    "Raphael": {
+      "campeao": "FRA",
+      "vice": "ARG",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "quartas",
+      "neymarMarca": true
+    },
+    "Jefferson": {
+      "campeao": "ESP",
+      "vice": "FRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "semifinal",
+      "neymarMarca": false
+    }
+  },
   "resultadosBonus": {
     "campeao": null,
     "vice": null,
