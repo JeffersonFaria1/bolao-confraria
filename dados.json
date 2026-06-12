@@ -164,6 +164,10 @@
     "G01": {
       "mandante": 2,
       "visitante": 0
+    },
+    "G02": {
+      "mandante": 2,
+      "visitante": 1
     }
   },
   "palpitesBonus": {},
