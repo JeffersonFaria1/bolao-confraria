@@ -1,0 +1,146 @@
+:root {
+  --dourado: #d4af37;
+  --verde-brasil: #009739;
+  --amarelo-brasil: #ffdf00;
+  --azul-brasil: #002776;
+}
+[data-tema="escuro"] {
+  --bg: #12100c;
+  --bg-card: #1e1b14;
+  --texto: #f3ecd8;
+  --texto-fraco: #b8ac8a;
+  --borda: #3a3424;
+  --destaque: var(--dourado);
+}
+[data-tema="claro"] {
+  --bg: #f7f4ec;
+  --bg-card: #ffffff;
+  --texto: #2a2418;
+  --texto-fraco: #6b6248;
+  --borda: #ddd4bf;
+  --destaque: #b8902a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--texto);
+}
+.cabecalho {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 2px solid var(--destaque);
+}
+.cabecalho h1 { font-size: 1.4rem; margin: 0; color: var(--destaque); }
+.faixa-brasil {
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--verde-brasil) 0 33%, var(--amarelo-brasil) 33% 66%, var(--azul-brasil) 66% 100%);
+}
+.cabecalho-direita { display: flex; align-items: center; gap: 1rem; }
+.contador { font-variant-numeric: tabular-nums; color: var(--texto-fraco); font-size: .9rem; }
+.btn-tema { background: none; border: 1px solid var(--borda); color: var(--texto); border-radius: 6px; padding: .3rem .5rem; cursor: pointer; }
+.abas { display: flex; flex-wrap: wrap; gap: .25rem; padding: .5rem 1rem; border-bottom: 1px solid var(--borda); }
+.aba {
+  background: none; border: none; color: var(--texto-fraco);
+  padding: .6rem 1rem; cursor: pointer; border-radius: 6px 6px 0 0; font-size: .95rem;
+}
+.aba.ativa { color: var(--destaque); border-bottom: 2px solid var(--destaque); font-weight: 600; }
+.conteudo { padding: 1.5rem; max-width: 1000px; margin: 0 auto; }
+.card {
+  background: var(--bg-card); border: 1px solid var(--borda); border-radius: 10px;
+  padding: 1rem; margin-bottom: .75rem;
+}
+.data-cabecalho {
+  margin: 1.6rem 0 .75rem; font-weight: 700; font-size: 1.05rem;
+  letter-spacing: .04em; color: var(--texto);
+}
+.data-cabecalho:first-child { margin-top: .25rem; }
+.jogo-topo { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
+.jogo-chip {
+  font-size: .7rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--texto-fraco); background: var(--bg); border: 1px solid var(--borda);
+  padding: .15rem .5rem; border-radius: 4px;
+}
+.jogo-data { font-size: .78rem; color: var(--texto-fraco); }
+.jogo-time { display: flex; align-items: center; gap: .6rem; padding: .35rem 0; }
+.jogo-time .time-nome { flex: 1; font-weight: 600; }
+.bandeira {
+  width: 30px; height: 22px; object-fit: cover; border-radius: 3px;
+  border: 1px solid var(--borda); flex-shrink: 0;
+}
+.bandeira-vazia { display: inline-block; background: var(--bg); }
+.jogo-rodape { display: flex; justify-content: space-between; align-items: center; margin-top: .5rem; min-height: 1.2rem; }
+.jogo-rodape .msg { font-size: .8rem; }
+
+/* Aba Palpites: ranking fixo à esquerda + jogos à direita */
+.palpites-layout { display: flex; gap: 1.5rem; align-items: flex-start; }
+.ranking-lateral { flex: 0 0 210px; position: sticky; top: 1rem; }
+.ranking-lateral-titulo { margin: 0 0 .6rem; color: var(--destaque); font-size: 1rem; }
+.ranking-lateral-lista { list-style: none; margin: 0; padding: 0; background: var(--bg-card); border: 1px solid var(--borda); border-radius: 10px; overflow: hidden; }
+.ranking-lateral-lista li { display: flex; align-items: center; gap: .5rem; padding: .45rem .6rem; border-bottom: 1px solid var(--borda); font-size: .9rem; }
+.ranking-lateral-lista li:last-child { border-bottom: none; }
+.ranking-lateral-lista .rk-pos { width: 1.3rem; text-align: right; color: var(--texto-fraco); }
+.ranking-lateral-lista .rk-nome { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ranking-lateral-lista .rk-pts { font-weight: 700; color: var(--destaque); }
+.ranking-lateral-lista li.pos-1 .rk-pos,
+.ranking-lateral-lista li.pos-1 .rk-nome { color: var(--dourado); font-weight: 700; }
+
+.palpites-main { flex: 1; min-width: 0; max-width: 460px; }
+/* placar alinhado à direita, na mesma coluna da data/horário e do botão Salvar */
+.palpites-main .jogo-time .time-nome { flex: 1; }
+
+@media (max-width: 760px) {
+  .palpites-layout { flex-direction: column; }
+  .ranking-lateral { position: static; flex-basis: auto; width: 100%; }
+  .palpites-main { max-width: none; }
+}
+
+/* Modal de Regras */
+.regras h3 { margin: 0 0 .5rem; color: var(--destaque); font-size: 1.1rem; }
+.regras h4 { margin: 1.1rem 0 .4rem; color: var(--destaque); font-size: .95rem; }
+.regras ul, .regras ol { margin: 0; padding-left: 1.3rem; }
+.regras li { margin: .3rem 0; line-height: 1.45; }
+.regras-bonus { list-style: none; padding-left: 0; }
+.regras-bonus li { margin: .35rem 0; }
+.bandeira-inline {
+  width: 20px; height: 14px; object-fit: cover; border-radius: 2px;
+  border: 1px solid var(--borda); vertical-align: -3px; margin-right: .3rem;
+}
+.jogo-linha { display: flex; align-items: center; gap: .75rem; }
+.jogo-sel { flex: 1; display: flex; align-items: center; gap: .4rem; }
+.jogo-sel.visitante { justify-content: flex-end; }
+.placar-input { width: 3rem; text-align: center; font-size: 1.1rem; padding: .3rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg); color: var(--texto); }
+.subabas { display: flex; gap: .5rem; margin-bottom: 1rem; }
+.subaba { background: none; border: 1px solid var(--borda); color: var(--texto-fraco); padding: .4rem .8rem; border-radius: 20px; cursor: pointer; }
+.subaba.ativa { background: var(--destaque); color: #12100c; border-color: var(--destaque); }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .6rem; text-align: left; border-bottom: 1px solid var(--borda); }
+th { color: var(--destaque); }
+
+/* Tabela "Todos os palpites": usa a largura toda da tela, com rolagem só se faltar espaço */
+.tabela-rolante {
+  overflow-x: auto;
+  /* full-bleed: estoura o limite de 1000px e ocupa a largura da viewport */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: 0 1.5rem;
+}
+.tabela-palpites { width: auto; min-width: 100%; }
+.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; }
+.tabela-palpites th:first-child, .tabela-palpites td:first-child {
+  position: sticky; left: 0; background: var(--bg);
+  border-right: 1px solid var(--borda); z-index: 1;
+}
+.tabela-palpites th:first-child { z-index: 2; }
+.pos-1 { color: var(--dourado); font-weight: 700; }
+.seletor { padding: .5rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg-card); color: var(--texto); }
+.btn { background: var(--destaque); color: #12100c; border: none; padding: .5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
+.btn-sec { background: none; border: 1px solid var(--borda); color: var(--texto); padding: .4rem .8rem; border-radius: 6px; cursor: pointer; }
+@media (max-width: 600px) {
+  .jogo-linha { flex-wrap: wrap; }
+  .conteudo { padding: 1rem; }
+}

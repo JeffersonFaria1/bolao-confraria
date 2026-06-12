@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bolão da Confraria</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body data-tema="escuro">
+  <header class="cabecalho">
+    <div class="faixa-brasil"></div>
+    <h1>🏆 Bolão da Confraria</h1>
+    <div class="cabecalho-direita">
+      <span style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#12100c;background:var(--destaque);padding:.15rem .5rem;border-radius:4px">somente leitura</span>
+      <span id="snapshot" class="contador">—</span>
+      <button id="btn-tema" class="btn-tema" title="Alternar tema">🌙</button>
+    </div>
+  </header>
+
+  <nav class="abas">
+    <button class="aba" data-aba="classificacao">Classificação</button>
+    <button class="aba" data-aba="resultados">Resultados</button>
+    <button class="aba" data-aba="todos">Todos os palpites</button>
+    <button class="aba" data-aba="bonus">Bônus</button>
+  </nav>
+
+  <main id="conteudo" class="conteudo"></main>
+
+  <script type="module" src="js/publico.js"></script>
+</body>
+</html>

@@ -1,0 +1,938 @@
+[
+  {
+    "id": "G01",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-11",
+    "horario": "16:00",
+    "mandante": "MEX",
+    "visitante": "RSA"
+  },
+  {
+    "id": "G02",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-11",
+    "horario": "23:00",
+    "mandante": "KOR",
+    "visitante": "CZE"
+  },
+  {
+    "id": "G03",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-12",
+    "horario": "16:00",
+    "mandante": "CAN",
+    "visitante": "BIH"
+  },
+  {
+    "id": "G04",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-12",
+    "horario": "22:00",
+    "mandante": "USA",
+    "visitante": "PAR"
+  },
+  {
+    "id": "G05",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-13",
+    "horario": "16:00",
+    "mandante": "QAT",
+    "visitante": "SUI"
+  },
+  {
+    "id": "G06",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-13",
+    "horario": "19:00",
+    "mandante": "BRA",
+    "visitante": "MAR"
+  },
+  {
+    "id": "G07",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-13",
+    "horario": "22:00",
+    "mandante": "HAI",
+    "visitante": "SCO"
+  },
+  {
+    "id": "G08",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-14",
+    "horario": "01:00",
+    "mandante": "AUS",
+    "visitante": "TUR"
+  },
+  {
+    "id": "G09",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-14",
+    "horario": "14:00",
+    "mandante": "GER",
+    "visitante": "CUW"
+  },
+  {
+    "id": "G10",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-14",
+    "horario": "17:00",
+    "mandante": "NED",
+    "visitante": "JPN"
+  },
+  {
+    "id": "G11",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-14",
+    "horario": "20:00",
+    "mandante": "CIV",
+    "visitante": "ECU"
+  },
+  {
+    "id": "G12",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-14",
+    "horario": "23:00",
+    "mandante": "SWE",
+    "visitante": "TUN"
+  },
+  {
+    "id": "G13",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-15",
+    "horario": "13:00",
+    "mandante": "ESP",
+    "visitante": "CPV"
+  },
+  {
+    "id": "G14",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-15",
+    "horario": "16:00",
+    "mandante": "BEL",
+    "visitante": "EGY"
+  },
+  {
+    "id": "G15",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-15",
+    "horario": "19:00",
+    "mandante": "KSA",
+    "visitante": "URU"
+  },
+  {
+    "id": "G16",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-15",
+    "horario": "22:00",
+    "mandante": "IRN",
+    "visitante": "NZL"
+  },
+  {
+    "id": "G17",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-16",
+    "horario": "16:00",
+    "mandante": "FRA",
+    "visitante": "SEN"
+  },
+  {
+    "id": "G18",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-16",
+    "horario": "19:00",
+    "mandante": "IRQ",
+    "visitante": "NOR"
+  },
+  {
+    "id": "G19",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-16",
+    "horario": "22:00",
+    "mandante": "ARG",
+    "visitante": "ALG"
+  },
+  {
+    "id": "G20",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-17",
+    "horario": "01:00",
+    "mandante": "AUT",
+    "visitante": "JOR"
+  },
+  {
+    "id": "G21",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-17",
+    "horario": "14:00",
+    "mandante": "POR",
+    "visitante": "COD"
+  },
+  {
+    "id": "G22",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-17",
+    "horario": "17:00",
+    "mandante": "ENG",
+    "visitante": "CRO"
+  },
+  {
+    "id": "G23",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-17",
+    "horario": "20:00",
+    "mandante": "GHA",
+    "visitante": "PAN"
+  },
+  {
+    "id": "G24",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-17",
+    "horario": "23:00",
+    "mandante": "UZB",
+    "visitante": "COL"
+  },
+  {
+    "id": "G25",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-18",
+    "horario": "13:00",
+    "mandante": "CZE",
+    "visitante": "RSA"
+  },
+  {
+    "id": "G26",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-18",
+    "horario": "16:00",
+    "mandante": "SUI",
+    "visitante": "BIH"
+  },
+  {
+    "id": "G27",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-18",
+    "horario": "19:00",
+    "mandante": "CAN",
+    "visitante": "QAT"
+  },
+  {
+    "id": "G28",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-18",
+    "horario": "22:00",
+    "mandante": "MEX",
+    "visitante": "KOR"
+  },
+  {
+    "id": "G29",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-19",
+    "horario": "16:00",
+    "mandante": "USA",
+    "visitante": "AUS"
+  },
+  {
+    "id": "G30",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-19",
+    "horario": "19:00",
+    "mandante": "SCO",
+    "visitante": "MAR"
+  },
+  {
+    "id": "G31",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-19",
+    "horario": "22:00",
+    "mandante": "BRA",
+    "visitante": "HAI"
+  },
+  {
+    "id": "G32",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-20",
+    "horario": "01:00",
+    "mandante": "TUR",
+    "visitante": "PAR"
+  },
+  {
+    "id": "G33",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-20",
+    "horario": "14:00",
+    "mandante": "NED",
+    "visitante": "SWE"
+  },
+  {
+    "id": "G34",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-20",
+    "horario": "17:00",
+    "mandante": "GER",
+    "visitante": "CIV"
+  },
+  {
+    "id": "G35",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-20",
+    "horario": "21:00",
+    "mandante": "ECU",
+    "visitante": "CUW"
+  },
+  {
+    "id": "G36",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-21",
+    "horario": "01:00",
+    "mandante": "TUN",
+    "visitante": "JPN"
+  },
+  {
+    "id": "G37",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-21",
+    "horario": "13:00",
+    "mandante": "ESP",
+    "visitante": "KSA"
+  },
+  {
+    "id": "G38",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-21",
+    "horario": "16:00",
+    "mandante": "BEL",
+    "visitante": "IRN"
+  },
+  {
+    "id": "G39",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-21",
+    "horario": "19:00",
+    "mandante": "URU",
+    "visitante": "CPV"
+  },
+  {
+    "id": "G40",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-21",
+    "horario": "22:00",
+    "mandante": "NZL",
+    "visitante": "EGY"
+  },
+  {
+    "id": "G41",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-22",
+    "horario": "14:00",
+    "mandante": "ARG",
+    "visitante": "AUT"
+  },
+  {
+    "id": "G42",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-22",
+    "horario": "18:00",
+    "mandante": "FRA",
+    "visitante": "IRQ"
+  },
+  {
+    "id": "G43",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-22",
+    "horario": "21:00",
+    "mandante": "NOR",
+    "visitante": "SEN"
+  },
+  {
+    "id": "G44",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-23",
+    "horario": "00:00",
+    "mandante": "JOR",
+    "visitante": "ALG"
+  },
+  {
+    "id": "G45",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-23",
+    "horario": "14:00",
+    "mandante": "POR",
+    "visitante": "UZB"
+  },
+  {
+    "id": "G46",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-23",
+    "horario": "17:00",
+    "mandante": "ENG",
+    "visitante": "GHA"
+  },
+  {
+    "id": "G47",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-23",
+    "horario": "20:00",
+    "mandante": "PAN",
+    "visitante": "CRO"
+  },
+  {
+    "id": "G48",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-23",
+    "horario": "23:00",
+    "mandante": "COL",
+    "visitante": "COD"
+  },
+  {
+    "id": "G49",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-24",
+    "horario": "16:00",
+    "mandante": "SUI",
+    "visitante": "CAN"
+  },
+  {
+    "id": "G50",
+    "fase": "grupos",
+    "grupo": "B",
+    "data": "2026-06-24",
+    "horario": "16:00",
+    "mandante": "BIH",
+    "visitante": "QAT"
+  },
+  {
+    "id": "G51",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-24",
+    "horario": "19:00",
+    "mandante": "SCO",
+    "visitante": "BRA"
+  },
+  {
+    "id": "G52",
+    "fase": "grupos",
+    "grupo": "C",
+    "data": "2026-06-24",
+    "horario": "19:00",
+    "mandante": "MAR",
+    "visitante": "HAI"
+  },
+  {
+    "id": "G53",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-24",
+    "horario": "22:00",
+    "mandante": "CZE",
+    "visitante": "MEX"
+  },
+  {
+    "id": "G54",
+    "fase": "grupos",
+    "grupo": "A",
+    "data": "2026-06-24",
+    "horario": "22:00",
+    "mandante": "RSA",
+    "visitante": "KOR"
+  },
+  {
+    "id": "G55",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-25",
+    "horario": "17:00",
+    "mandante": "ECU",
+    "visitante": "GER"
+  },
+  {
+    "id": "G56",
+    "fase": "grupos",
+    "grupo": "E",
+    "data": "2026-06-25",
+    "horario": "17:00",
+    "mandante": "CUW",
+    "visitante": "CIV"
+  },
+  {
+    "id": "G57",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-25",
+    "horario": "20:00",
+    "mandante": "JPN",
+    "visitante": "SWE"
+  },
+  {
+    "id": "G58",
+    "fase": "grupos",
+    "grupo": "F",
+    "data": "2026-06-25",
+    "horario": "20:00",
+    "mandante": "TUN",
+    "visitante": "NED"
+  },
+  {
+    "id": "G59",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-25",
+    "horario": "23:00",
+    "mandante": "TUR",
+    "visitante": "USA"
+  },
+  {
+    "id": "G60",
+    "fase": "grupos",
+    "grupo": "D",
+    "data": "2026-06-25",
+    "horario": "23:00",
+    "mandante": "PAR",
+    "visitante": "AUS"
+  },
+  {
+    "id": "G61",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-26",
+    "horario": "16:00",
+    "mandante": "NOR",
+    "visitante": "FRA"
+  },
+  {
+    "id": "G62",
+    "fase": "grupos",
+    "grupo": "I",
+    "data": "2026-06-26",
+    "horario": "16:00",
+    "mandante": "SEN",
+    "visitante": "IRQ"
+  },
+  {
+    "id": "G63",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-26",
+    "horario": "21:00",
+    "mandante": "CPV",
+    "visitante": "KSA"
+  },
+  {
+    "id": "G64",
+    "fase": "grupos",
+    "grupo": "H",
+    "data": "2026-06-26",
+    "horario": "21:00",
+    "mandante": "URU",
+    "visitante": "ESP"
+  },
+  {
+    "id": "G65",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-27",
+    "horario": "00:00",
+    "mandante": "EGY",
+    "visitante": "IRN"
+  },
+  {
+    "id": "G66",
+    "fase": "grupos",
+    "grupo": "G",
+    "data": "2026-06-27",
+    "horario": "00:00",
+    "mandante": "NZL",
+    "visitante": "BEL"
+  },
+  {
+    "id": "G67",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-27",
+    "horario": "18:00",
+    "mandante": "PAN",
+    "visitante": "ENG"
+  },
+  {
+    "id": "G68",
+    "fase": "grupos",
+    "grupo": "L",
+    "data": "2026-06-27",
+    "horario": "18:00",
+    "mandante": "CRO",
+    "visitante": "GHA"
+  },
+  {
+    "id": "G69",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-27",
+    "horario": "20:30",
+    "mandante": "COL",
+    "visitante": "POR"
+  },
+  {
+    "id": "G70",
+    "fase": "grupos",
+    "grupo": "K",
+    "data": "2026-06-27",
+    "horario": "20:30",
+    "mandante": "COD",
+    "visitante": "UZB"
+  },
+  {
+    "id": "G71",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-27",
+    "horario": "23:00",
+    "mandante": "ALG",
+    "visitante": "AUT"
+  },
+  {
+    "id": "G72",
+    "fase": "grupos",
+    "grupo": "J",
+    "data": "2026-06-27",
+    "horario": "23:00",
+    "mandante": "JOR",
+    "visitante": "ARG"
+  },
+  {
+    "id": "D01",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-28",
+    "horario": "16:00",
+    "mandante": "2A",
+    "visitante": "2B"
+  },
+  {
+    "id": "D02",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-29",
+    "horario": "14:00",
+    "mandante": "1C",
+    "visitante": "2F"
+  },
+  {
+    "id": "D03",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-29",
+    "horario": "17:30",
+    "mandante": "1E",
+    "visitante": "3ABCDF"
+  },
+  {
+    "id": "D04",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-29",
+    "horario": "22:00",
+    "mandante": "1F",
+    "visitante": "2C"
+  },
+  {
+    "id": "D05",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-30",
+    "horario": "14:00",
+    "mandante": "2E",
+    "visitante": "2I"
+  },
+  {
+    "id": "D06",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-30",
+    "horario": "18:00",
+    "mandante": "1I",
+    "visitante": "3CDFGH"
+  },
+  {
+    "id": "D07",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-06-30",
+    "horario": "22:00",
+    "mandante": "1A",
+    "visitante": "3CEFHI"
+  },
+  {
+    "id": "D08",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-01",
+    "horario": "13:00",
+    "mandante": "1L",
+    "visitante": "3EHIJK"
+  },
+  {
+    "id": "D09",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-01",
+    "horario": "17:00",
+    "mandante": "1G",
+    "visitante": "3AEHIJ"
+  },
+  {
+    "id": "D10",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-01",
+    "horario": "21:00",
+    "mandante": "1D",
+    "visitante": "3BEFIJ"
+  },
+  {
+    "id": "D11",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-02",
+    "horario": "16:00",
+    "mandante": "1H",
+    "visitante": "2J"
+  },
+  {
+    "id": "D12",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-02",
+    "horario": "20:00",
+    "mandante": "2K",
+    "visitante": "2L"
+  },
+  {
+    "id": "D13",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-03",
+    "horario": "00:00",
+    "mandante": "1B",
+    "visitante": "3EFGIJ"
+  },
+  {
+    "id": "D14",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-03",
+    "horario": "15:00",
+    "mandante": "2D",
+    "visitante": "2G"
+  },
+  {
+    "id": "D15",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-03",
+    "horario": "19:00",
+    "mandante": "1J",
+    "visitante": "2H"
+  },
+  {
+    "id": "D16",
+    "fase": "16avos",
+    "grupo": null,
+    "data": "2026-07-03",
+    "horario": "22:30",
+    "mandante": "1K",
+    "visitante": "3DEIJL"
+  },
+  {
+    "id": "O01",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-04",
+    "horario": "14:00",
+    "mandante": "V73",
+    "visitante": "V75"
+  },
+  {
+    "id": "O02",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-04",
+    "horario": "18:00",
+    "mandante": "V74",
+    "visitante": "V77"
+  },
+  {
+    "id": "O03",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-05",
+    "horario": "17:00",
+    "mandante": "V76",
+    "visitante": "V78"
+  },
+  {
+    "id": "O04",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-05",
+    "horario": "21:00",
+    "mandante": "V79",
+    "visitante": "V80"
+  },
+  {
+    "id": "O05",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-06",
+    "horario": "16:00",
+    "mandante": "V83",
+    "visitante": "V84"
+  },
+  {
+    "id": "O06",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-06",
+    "horario": "18:00",
+    "mandante": "V81",
+    "visitante": "V82"
+  },
+  {
+    "id": "O07",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-07",
+    "horario": "13:00",
+    "mandante": "V86",
+    "visitante": "V88"
+  },
+  {
+    "id": "O08",
+    "fase": "oitavas",
+    "grupo": null,
+    "data": "2026-07-07",
+    "horario": "17:00",
+    "mandante": "V85",
+    "visitante": "V87"
+  },
+  {
+    "id": "Q01",
+    "fase": "quartas",
+    "grupo": null,
+    "data": "2026-07-09",
+    "horario": "17:00",
+    "mandante": "V89",
+    "visitante": "V90"
+  },
+  {
+    "id": "Q02",
+    "fase": "quartas",
+    "grupo": null,
+    "data": "2026-07-10",
+    "horario": "16:00",
+    "mandante": "V93",
+    "visitante": "V94"
+  },
+  {
+    "id": "Q03",
+    "fase": "quartas",
+    "grupo": null,
+    "data": "2026-07-11",
+    "horario": "18:00",
+    "mandante": "V91",
+    "visitante": "V92"
+  },
+  {
+    "id": "Q04",
+    "fase": "quartas",
+    "grupo": null,
+    "data": "2026-07-11",
+    "horario": "22:00",
+    "mandante": "V95",
+    "visitante": "V96"
+  },
+  {
+    "id": "S01",
+    "fase": "semifinal",
+    "grupo": null,
+    "data": "2026-07-14",
+    "horario": "16:00",
+    "mandante": "V97",
+    "visitante": "V98"
+  },
+  {
+    "id": "S02",
+    "fase": "semifinal",
+    "grupo": null,
+    "data": "2026-07-15",
+    "horario": "16:00",
+    "mandante": "V99",
+    "visitante": "V100"
+  },
+  {
+    "id": "T01",
+    "fase": "terceiro",
+    "grupo": null,
+    "data": "2026-07-18",
+    "horario": "18:00",
+    "mandante": "P101",
+    "visitante": "P102"
+  },
+  {
+    "id": "F01",
+    "fase": "final",
+    "grupo": null,
+    "data": "2026-07-19",
+    "horario": "16:00",
+    "mandante": "V101",
+    "visitante": "V102"
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "nomeBolao": "Bolão da Confraria",
+  "participantes": [
+    {
+      "nome": "Jefferson",
+      "apelido": null
+    },
+    {
+      "nome": "Vinícius",
+      "apelido": null
+    },
+    {
+      "nome": "Lucas",
+      "apelido": null
+    },
+    {
+      "nome": "Murilo",
+      "apelido": "Zói"
+    },
+    {
+      "nome": "Eugênio",
+      "apelido": null
+    },
+    {
+      "nome": "Raphael",
+      "apelido": "Bonitão"
+    },
+    {
+      "nome": "Wilton",
+      "apelido": "Tinta"
+    },
+    {
+      "nome": "Renato",
+      "apelido": null
+    },
+    {
+      "nome": "Caio",
+      "apelido": null
+    },
+    {
+      "nome": "Gabriel",
+      "apelido": null
+    },
+    {
+      "nome": "Forlan",
+      "apelido": null
+    },
+    {
+      "nome": "João Vitor",
+      "apelido": null
+    },
+    {
+      "nome": "Carlos Henrique",
+      "apelido": null
+    }
+  ],
+  "palpites": {
+    "Jefferson": {
+      "G01": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G02": {
+        "mandante": 0,
+        "visitante": 0
+      }
+    },
+    "Vinícius": {
+      "G01": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G02": {
+        "mandante": 1,
+        "visitante": 1
+      }
+    },
+    "Lucas": {
+      "G01": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G02": {
+        "mandante": 1,
+        "visitante": 0
+      }
+    },
+    "Murilo": {
+      "G01": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G02": {
+        "mandante": 2,
+        "visitante": 1
+      }
+    },
+    "Eugênio": {
+      "G01": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G02": {
+        "mandante": 2,
+        "visitante": 1
+      }
+    },
+    "Raphael": {
+      "G01": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G02": {
+        "mandante": 2,
+        "visitante": 1
+      }
+    },
+    "Wilton": {
+      "G01": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G02": {
+        "mandante": 1,
+        "visitante": 1
+      }
+    },
+    "Renato": {
+      "G01": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G02": {
+        "mandante": 0,
+        "visitante": 0
+      }
+    },
+    "Caio": {
+      "G02": {
+        "mandante": 2,
+        "visitante": 1
+      }
+    },
+    "Gabriel": {
+      "G02": {
+        "mandante": 2,
+        "visitante": 0
+      }
+    },
+    "Forlan": {
+      "G02": {
+        "mandante": 1,
+        "visitante": 1
+      }
+    },
+    "João Vitor": {
+      "G02": {
+        "mandante": 2,
+        "visitante": 2
+      }
+    }
+  },
+  "resultados": {
+    "G01": {
+      "mandante": 2,
+      "visitante": 0
+    }
+  },
+  "palpitesBonus": {},
+  "resultadosBonus": {
+    "campeao": null,
+    "vice": null,
+    "artilheiro": null,
+    "desempenhoBrasil": null,
+    "neymarMarca": null
+  }
+}
