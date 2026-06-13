@@ -93,6 +93,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Lucas": {
@@ -111,6 +127,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 4
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -239,6 +271,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G08": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "João Vitor": {
