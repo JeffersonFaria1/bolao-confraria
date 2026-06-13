@@ -134,7 +134,7 @@ th { color: var(--destaque); }
   padding: 0 1.5rem;
 }
 .tabela-palpites { width: auto; min-width: 100%; }
-.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; }
+.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; text-align: center; }
 .tabela-palpites th:first-child, .tabela-palpites td:first-child {
   position: sticky; left: 0; background: var(--bg);
   border-right: 1px solid var(--borda); z-index: 1;

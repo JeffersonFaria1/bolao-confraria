@@ -325,6 +325,41 @@
       "artilheiro": "Lamine Yamal",
       "desempenhoBrasil": "campeao",
       "neymarMarca": false
+    },
+    "Forlan": {
+      "campeao": "BRA",
+      "vice": "ESP",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "campeao",
+      "neymarMarca": true
+    },
+    "Gabriel": {
+      "campeao": "POR",
+      "vice": "FRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "quartas",
+      "neymarMarca": true
+    },
+    "Eugênio": {
+      "campeao": "FRA",
+      "vice": "POR",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "semifinal",
+      "neymarMarca": true
+    },
+    "Caio": {
+      "campeao": "POR",
+      "vice": "ESP",
+      "artilheiro": "Cristiano Ronaldo",
+      "desempenhoBrasil": "quartas",
+      "neymarMarca": false
+    },
+    "Carlos Henrique": {
+      "campeao": "POR",
+      "vice": "FRA",
+      "artilheiro": "Cristiano Ronaldo",
+      "desempenhoBrasil": "quartas",
+      "neymarMarca": true
     }
   },
   "resultadosBonus": {
