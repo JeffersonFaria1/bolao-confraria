@@ -634,6 +634,13 @@
       "artilheiro": "Cristiano Ronaldo",
       "desempenhoBrasil": "campeao",
       "neymarMarca": true
+    },
+    "Renato": {
+      "campeao": "FRA",
+      "vice": "BRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "final",
+      "neymarMarca": false
     }
   },
   "resultadosBonus": {
