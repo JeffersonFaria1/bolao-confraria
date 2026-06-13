@@ -157,3 +157,27 @@ tr.linha-lanterna td { background: var(--linha-encerrada); }
   .jogo-linha { flex-wrap: wrap; }
   .conteudo { padding: 1rem; }
 }
+
+/* Rodapé: selo fixo no canto inferior direito com a assinatura do criador */
+.rodape {
+  position: fixed;
+  right: 1rem; bottom: 1rem;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
+  padding: .4rem .8rem;
+  background: var(--bg-card);
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+  color: var(--texto-fraco);
+  font-size: .78rem;
+}
+.rodape-credito { margin: 0; white-space: nowrap; }
+.rodape-credito strong { color: var(--destaque); }
+.rodape-links { display: inline-flex; gap: .8rem; }
+.rodape-links a { color: var(--texto-fraco); display: inline-flex; transition: color .15s; }
+.rodape-links a:hover { color: var(--destaque); }
+/* respiro pra barra fixa não cobrir o último conteúdo */
+body { padding-bottom: 3rem; }
