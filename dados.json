@@ -56,6 +56,10 @@
     {
       "nome": "Myckael",
       "apelido": null
+    },
+    {
+      "nome": "Ricardo",
+      "apelido": null
     }
   ],
   "palpites": {
@@ -75,6 +79,22 @@
       "G04": {
         "mandante": 4,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 5
+      },
+      "G08": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Vinícius": {
@@ -107,8 +127,8 @@
         "visitante": 3
       },
       "G08": {
-        "mandante": 2,
-        "visitante": 3
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -161,6 +181,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Eugênio": {
@@ -179,6 +215,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 4
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 0,
+        "visitante": 4
       }
     },
     "Raphael": {
@@ -197,6 +249,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -209,6 +277,22 @@
         "visitante": 1
       },
       "G03": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G08": {
         "mandante": 1,
         "visitante": 2
       }
@@ -229,6 +313,22 @@
       "G04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Caio": {
@@ -243,6 +343,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Gabriel": {
@@ -257,6 +373,22 @@
       "G04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Forlan": {
@@ -301,6 +433,22 @@
       "G04": {
         "mandante": 3,
         "visitante": 0
+      },
+      "G05": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Carlos Henrique": {
@@ -311,10 +459,60 @@
       "G04": {
         "mandante": 2,
         "visitante": 3
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Myckael": {
       "G04": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G08": {
+        "mandante": 2,
+        "visitante": 2
+      }
+    },
+    "Ricardo": {
+      "G05": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G06": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G07": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G08": {
         "mandante": 1,
         "visitante": 2
       }
@@ -407,6 +605,27 @@
       "vice": "FRA",
       "artilheiro": "Cristiano Ronaldo",
       "desempenhoBrasil": "quartas",
+      "neymarMarca": true
+    },
+    "João Vitor": {
+      "campeao": "BRA",
+      "vice": "FRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "campeao",
+      "neymarMarca": true
+    },
+    "Ricardo": {
+      "campeao": "POR",
+      "vice": "ESP",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "oitavas",
+      "neymarMarca": true
+    },
+    "Myckael": {
+      "campeao": "BRA",
+      "vice": "FRA",
+      "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "campeao",
       "neymarMarca": true
     }
   },
