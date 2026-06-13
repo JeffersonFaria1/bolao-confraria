@@ -50,7 +50,7 @@
       "apelido": null
     },
     {
-      "nome": "Carlos Henrique",
+      "nome": "Carlos H.",
       "apelido": null
     },
     {
@@ -451,32 +451,6 @@
         "visitante": 1
       }
     },
-    "Carlos Henrique": {
-      "G03": {
-        "mandante": 2,
-        "visitante": 0
-      },
-      "G04": {
-        "mandante": 2,
-        "visitante": 3
-      },
-      "G05": {
-        "mandante": 1,
-        "visitante": 3
-      },
-      "G06": {
-        "mandante": 3,
-        "visitante": 1
-      },
-      "G07": {
-        "mandante": 1,
-        "visitante": 2
-      },
-      "G08": {
-        "mandante": 1,
-        "visitante": 2
-      }
-    },
     "Myckael": {
       "G04": {
         "mandante": 1,
@@ -511,6 +485,32 @@
       "G07": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G08": {
+        "mandante": 1,
+        "visitante": 2
+      }
+    },
+    "Carlos H.": {
+      "G03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G04": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G07": {
+        "mandante": 1,
+        "visitante": 2
       },
       "G08": {
         "mandante": 1,
@@ -600,13 +600,6 @@
       "desempenhoBrasil": "quartas",
       "neymarMarca": false
     },
-    "Carlos Henrique": {
-      "campeao": "POR",
-      "vice": "FRA",
-      "artilheiro": "Cristiano Ronaldo",
-      "desempenhoBrasil": "quartas",
-      "neymarMarca": true
-    },
     "João Vitor": {
       "campeao": "BRA",
       "vice": "FRA",
@@ -625,6 +618,20 @@
       "campeao": "BRA",
       "vice": "FRA",
       "artilheiro": "Kylian Mbappé",
+      "desempenhoBrasil": "campeao",
+      "neymarMarca": true
+    },
+    "Carlos H.": {
+      "campeao": "POR",
+      "vice": "FRA",
+      "artilheiro": "Cristiano Ronaldo",
+      "desempenhoBrasil": "quartas",
+      "neymarMarca": true
+    },
+    "Lucas": {
+      "campeao": "BRA",
+      "vice": "ESP",
+      "artilheiro": "Cristiano Ronaldo",
       "desempenhoBrasil": "campeao",
       "neymarMarca": true
     }
