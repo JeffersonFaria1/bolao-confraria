@@ -345,6 +345,22 @@
       "G08": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G09": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G10": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G11": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G12": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -774,6 +790,10 @@
     "G08": {
       "mandante": 2,
       "visitante": 0
+    },
+    "G09": {
+      "mandante": 7,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
