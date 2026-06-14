@@ -259,12 +259,12 @@
         "visitante": 1
       },
       "G07": {
-        "mandante": 1,
+        "mandante": 0,
         "visitante": 3
       },
       "G08": {
         "mandante": 1,
-        "visitante": 2
+        "visitante": 3
       }
     },
     "Wilton": {
@@ -536,6 +536,10 @@
       "visitante": 1
     },
     "G05": {
+      "mandante": 1,
+      "visitante": 1
+    },
+    "G06": {
       "mandante": 1,
       "visitante": 1
     }
