@@ -13,6 +13,9 @@
   --destaque: var(--dourado);
   --linha-encerrada: #4a221d;
   --linha-hoje: #143a26;
+  --acerto-exato: #15512f;
+  --acerto-cenario: #c79a1c;
+  --acerto-erro: #9b1313;
 }
 [data-tema="claro"] {
   --bg: #f7f4ec;
@@ -23,6 +26,9 @@
   --destaque: #b8902a;
   --linha-encerrada: #fadbd4;
   --linha-hoje: #d6efdd;
+  --acerto-exato: #c9ecd2;
+  --acerto-cenario: #f9da6e;
+  --acerto-erro: #e2493c;
 }
 * { box-sizing: border-box; }
 body {
@@ -134,7 +140,7 @@ th { color: var(--destaque); }
   padding: 0 1.5rem;
 }
 .tabela-palpites { width: auto; min-width: 100%; }
-.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; text-align: center; }
+.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; text-align: center; border: 2px solid #000; }
 .tabela-palpites th:first-child, .tabela-palpites td:first-child {
   position: sticky; left: 0; background: var(--bg);
   border-right: 1px solid var(--borda); z-index: 1;
@@ -143,6 +149,11 @@ th { color: var(--destaque); }
 /* Linhas destacadas: jogo encerrado (vermelho) ou jogo de hoje (verde) */
 .tabela-palpites tbody tr.linha-encerrada td { background: var(--linha-encerrada); }
 .tabela-palpites tbody tr.linha-hoje td { background: var(--linha-hoje); }
+/* Acerto do palpite vs resultado oficial (só jogos encerrados) */
+.tabela-palpites td.cravou { background: var(--acerto-exato); }
+.tabela-palpites td.cenario { background: var(--acerto-cenario); color: #12100c; }
+.tabela-palpites td.erro { background: var(--acerto-erro); }
+.tabela-palpites td .mk { font-weight: 700; }
 .legenda-todos { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin: 0 0 .8rem; font-size: .85rem; color: var(--texto-fraco); }
 .legenda-todos > span { display: inline-flex; align-items: center; gap: .4rem; }
 .legenda-cor { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--borda); display: inline-block; }
