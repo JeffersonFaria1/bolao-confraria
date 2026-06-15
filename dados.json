@@ -1046,6 +1046,10 @@
     "G12": {
       "mandante": 5,
       "visitante": 1
+    },
+    "G13": {
+      "mandante": 0,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
