@@ -503,6 +503,22 @@
       "G12": {
         "mandante": 3,
         "visitante": 0
+      },
+      "G13": {
+        "mandante": 5,
+        "visitante": 1
+      },
+      "G14": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G15": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G16": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Renato": {
@@ -613,6 +629,22 @@
         "visitante": 2
       },
       "G12": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G13": {
+        "mandante": 6,
+        "visitante": 0
+      },
+      "G14": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G15": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G16": {
         "mandante": 2,
         "visitante": 0
       }
