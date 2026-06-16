@@ -154,6 +154,10 @@ th { color: var(--destaque); }
 .tabela-palpites td.cenario { background: var(--acerto-cenario); color: #12100c; }
 .tabela-palpites td.erro { background: var(--acerto-erro); }
 .tabela-palpites td .mk { font-weight: 700; }
+/* Filtro de fases da aba "Todos os palpites" (reaproveita os pills .subaba) */
+.filtro-fases { display: flex; flex-direction: column; align-items: center; gap: .4rem; margin: 0 0 1rem; }
+.filtro-linha { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .4rem; }
+.filtro-rotulo { color: var(--texto-fraco); font-size: .85rem; min-width: 5.2rem; text-align: right; }
 .legenda-todos { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin: 0 0 .8rem; font-size: .85rem; color: var(--texto-fraco); }
 .legenda-todos > span { display: inline-flex; align-items: center; gap: .4rem; }
 .legenda-cor { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--borda); display: inline-block; }

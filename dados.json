@@ -521,6 +521,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "G19": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Wilton": {
@@ -583,6 +599,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Renato": {
@@ -1155,6 +1187,22 @@
       "G16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 1,
+        "visitante": 2
       }
     }
   },
