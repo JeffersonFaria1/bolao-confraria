@@ -1058,6 +1058,10 @@
     "G15": {
       "mandante": 1,
       "visitante": 1
+    },
+    "G16": {
+      "mandante": 2,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
