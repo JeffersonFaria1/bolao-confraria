@@ -127,6 +127,22 @@
       "G16": {
         "mandante": 0,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -193,6 +209,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G17": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Lucas": {
@@ -258,6 +290,22 @@
       },
       "G16": {
         "mandante": 2,
+        "visitante": 1
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 1,
         "visitante": 1
       }
     },
@@ -325,6 +373,22 @@
       "G16": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G18": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 0,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -585,6 +649,22 @@
       "G16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G19": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Caio": {
@@ -709,6 +789,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Forlan": {
@@ -771,6 +867,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G17": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "João Vitor": {
@@ -833,6 +945,22 @@
       "G16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G17": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G18": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G19": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G20": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Myckael": {
@@ -887,6 +1015,22 @@
       "G16": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G17": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G19": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Ricardo": {
@@ -936,6 +1080,22 @@
       },
       "G16": {
         "mandante": 1,
+        "visitante": 0
+      },
+      "G17": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G18": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G19": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G20": {
+        "mandante": 2,
         "visitante": 0
       }
     },
