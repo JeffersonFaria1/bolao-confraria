@@ -147,6 +147,10 @@ export function renderTodos(el, estado) {
     }
 
     wrap.appendChild(tabela);
+
+    // Fixa também a 2ª coluna (Oficial): mede a largura real da 1ª e passa ao CSS.
+    const col1 = tabela.querySelector('thead th:first-child');
+    if (col1) tabela.style.setProperty('--col2-left', `${col1.getBoundingClientRect().width}px`);
   }
 
   desenharFiltro();

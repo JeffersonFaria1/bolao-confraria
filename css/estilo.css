@@ -131,9 +131,11 @@ table { width: 100%; border-collapse: collapse; }
 th, td { padding: .6rem; text-align: left; border-bottom: 1px solid var(--borda); }
 th { color: var(--destaque); }
 
-/* Tabela "Todos os palpites": usa a largura toda da tela, com rolagem só se faltar espaço */
+/* Tabela "Todos os palpites": usa a largura toda da tela; rola dentro de si
+   (vertical + horizontal) para manter cabeçalho e 1ª coluna sempre visíveis */
 .tabela-rolante {
-  overflow-x: auto;
+  overflow: auto;
+  max-height: 80vh;
   /* full-bleed: estoura o limite de 1000px e ocupa a largura da viewport */
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
@@ -141,11 +143,23 @@ th { color: var(--destaque); }
 }
 .tabela-palpites { width: auto; min-width: 100%; }
 .tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; text-align: center; border: 2px solid #000; }
+/* Cabeçalho (linha dos nomes) fixo ao rolar para baixo */
+.tabela-palpites thead th { position: sticky; top: 0; z-index: 3; background: var(--bg); }
+/* Primeira coluna (Jogo) fixa ao rolar para o lado */
 .tabela-palpites th:first-child, .tabela-palpites td:first-child {
   position: sticky; left: 0; background: var(--bg);
-  border-right: 1px solid var(--borda); z-index: 1;
+  border-right: 1px solid var(--borda);
 }
-.tabela-palpites th:first-child { z-index: 2; }
+.tabela-palpites td:first-child { z-index: 1; }
+/* Canto (cabeçalho da 1ª coluna): fixo nos dois eixos, por cima de tudo */
+.tabela-palpites thead th:first-child { z-index: 4; }
+/* Segunda coluna (Oficial) também fixa, logo após a 1ª (--col2-left medido via JS) */
+.tabela-palpites th:nth-child(2), .tabela-palpites td:nth-child(2) {
+  position: sticky; left: var(--col2-left, 0); background: var(--bg);
+  border-right: 1px solid var(--borda);
+}
+.tabela-palpites td:nth-child(2) { z-index: 1; }
+.tabela-palpites thead th:nth-child(2) { z-index: 4; }
 /* Linhas destacadas: jogo encerrado (vermelho) ou jogo de hoje (verde) */
 .tabela-palpites tbody tr.linha-encerrada td { background: var(--linha-encerrada); }
 .tabela-palpites tbody tr.linha-hoje td { background: var(--linha-hoje); }
