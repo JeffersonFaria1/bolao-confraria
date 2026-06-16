@@ -1054,6 +1054,10 @@
     "G14": {
       "mandante": 1,
       "visitante": 1
+    },
+    "G15": {
+      "mandante": 1,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
