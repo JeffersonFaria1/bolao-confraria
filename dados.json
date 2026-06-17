@@ -923,6 +923,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Gabriel": {
@@ -1473,6 +1489,22 @@
       "G20": {
         "mandante": 4,
         "visitante": 2
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 3
       }
     }
   },
