@@ -1324,6 +1324,10 @@
     "G18": {
       "mandante": 1,
       "visitante": 4
+    },
+    "G19": {
+      "mandante": 3,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
