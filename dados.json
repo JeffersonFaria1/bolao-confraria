@@ -147,6 +147,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 5
       }
     },
     "Vinícius": {
@@ -229,6 +245,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G24": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -311,6 +343,22 @@
       "G20": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -393,6 +441,22 @@
       "G20": {
         "mandante": 0,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Eugênio": {
@@ -475,6 +539,22 @@
       "G20": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Raphael": {
@@ -557,6 +637,22 @@
       "G20": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 4
       }
     },
     "Wilton": {
@@ -635,6 +731,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G24": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -717,6 +829,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Caio": {
@@ -873,6 +1001,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Forlan": {
@@ -951,6 +1095,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "João Vitor": {
@@ -1029,6 +1189,22 @@
       "G20": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 6,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Myckael": {
@@ -1099,6 +1275,22 @@
       "G20": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G23": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G24": {
+        "mandante": 1,
+        "visitante": 4
       }
     },
     "Ricardo": {
@@ -1165,6 +1357,22 @@
       "G20": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G21": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G22": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G23": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Carlos H.": {
@@ -1239,6 +1447,22 @@
       "G20": {
         "mandante": 3,
         "visitante": 1
+      },
+      "G21": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G22": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G23": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G24": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
