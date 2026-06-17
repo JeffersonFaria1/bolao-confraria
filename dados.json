@@ -1237,8 +1237,8 @@
         "visitante": 0
       },
       "G20": {
-        "mandante": 1,
-        "visitante": 2
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Luiz Gabriel": {
@@ -1328,6 +1328,10 @@
     "G19": {
       "mandante": 3,
       "visitante": 0
+    },
+    "G20": {
+      "mandante": 3,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
