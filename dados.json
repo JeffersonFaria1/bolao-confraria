@@ -1588,6 +1588,10 @@
     "G20": {
       "mandante": 3,
       "visitante": 1
+    },
+    "G21": {
+      "mandante": 1,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
