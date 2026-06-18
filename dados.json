@@ -277,6 +277,22 @@
       "G24": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -375,6 +391,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G25": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Murilo": {
@@ -701,6 +733,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 4
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -909,6 +957,22 @@
       "G24": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G27": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Caio": {
@@ -1207,6 +1271,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "João Vitor": {
