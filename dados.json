@@ -1860,6 +1860,10 @@
     "G24": {
       "mandante": 1,
       "visitante": 3
+    },
+    "G25": {
+      "mandante": 1,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
