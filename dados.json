@@ -163,6 +163,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 5
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Vinícius": {
@@ -457,6 +473,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Eugênio": {
@@ -555,6 +587,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -746,6 +794,22 @@
       },
       "G24": {
         "mandante": 1,
+        "visitante": 2
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 2,
         "visitante": 2
       }
     },
@@ -1033,6 +1097,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Forlan": {
@@ -1221,6 +1301,22 @@
       "G24": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -1307,6 +1403,22 @@
       "G24": {
         "mandante": 1,
         "visitante": 4
+      },
+      "G25": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Ricardo": {
@@ -1479,6 +1591,22 @@
       "G24": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G26": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Luiz Gabriel": {
@@ -1503,8 +1631,24 @@
         "visitante": 1
       },
       "G24": {
-        "mandante": 0,
+        "mandante": 1,
         "visitante": 3
+      },
+      "G25": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G26": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G27": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G28": {
+        "mandante": 2,
+        "visitante": 2
       }
     }
   },
@@ -1600,6 +1744,10 @@
     "G23": {
       "mandante": 1,
       "visitante": 0
+    },
+    "G24": {
+      "mandante": 1,
+      "visitante": 3
     }
   },
   "palpitesBonus": {
