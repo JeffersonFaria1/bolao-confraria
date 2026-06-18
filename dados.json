@@ -1596,6 +1596,10 @@
     "G22": {
       "mandante": 4,
       "visitante": 2
+    },
+    "G23": {
+      "mandante": 1,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
