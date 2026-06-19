@@ -309,6 +309,22 @@
       "G28": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G29": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G31": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Lucas": {
@@ -423,6 +439,22 @@
       "G28": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G29": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G31": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -537,6 +569,22 @@
       "G28": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G29": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G31": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -906,6 +954,22 @@
       },
       "G28": {
         "mandante": 2,
+        "visitante": 2
+      },
+      "G29": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G31": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 1,
         "visitante": 2
       }
     },
@@ -1741,6 +1805,22 @@
       "G28": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G29": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G30": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "G31": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 0,
+        "visitante": 1
       }
     },
     "Carlos H.": {
@@ -1905,6 +1985,22 @@
       "G28": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G29": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 0,
+        "visitante": 4
+      },
+      "G31": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G32": {
+        "mandante": 2,
+        "visitante": 3
       }
     }
   },
