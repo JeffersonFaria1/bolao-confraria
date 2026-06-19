@@ -1872,6 +1872,10 @@
     "G27": {
       "mandante": 6,
       "visitante": 0
+    },
+    "G28": {
+      "mandante": 1,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
