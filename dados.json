@@ -1718,7 +1718,7 @@
       },
       "G28": {
         "mandante": 2,
-        "visitante": 1
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -1864,6 +1864,14 @@
     "G25": {
       "mandante": 1,
       "visitante": 1
+    },
+    "G26": {
+      "mandante": 4,
+      "visitante": 1
+    },
+    "G27": {
+      "mandante": 6,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
