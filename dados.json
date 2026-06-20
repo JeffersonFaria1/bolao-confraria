@@ -195,6 +195,22 @@
       "G32": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G33": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G34": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G35": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G36": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Vinícius": {
@@ -585,6 +601,22 @@
       "G32": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G33": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G34": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G35": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G36": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Eugênio": {
@@ -715,6 +747,22 @@
       "G32": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G33": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G34": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G35": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G36": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Raphael": {
@@ -1227,6 +1275,22 @@
       "G32": {
         "mandante": 3,
         "visitante": 1
+      },
+      "G33": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G34": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G35": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G36": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Gabriel": {
@@ -1351,6 +1415,22 @@
         "visitante": 0
       },
       "G32": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G33": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G34": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G35": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G36": {
         "mandante": 1,
         "visitante": 2
       }
@@ -1837,6 +1917,22 @@
       "G32": {
         "mandante": 0,
         "visitante": 1
+      },
+      "G33": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G34": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G35": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G36": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Carlos H.": {
