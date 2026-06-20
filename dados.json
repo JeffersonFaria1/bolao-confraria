@@ -1211,6 +1211,22 @@
       "G28": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G29": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G30": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G31": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G32": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Gabriel": {
@@ -2116,6 +2132,22 @@
     "G28": {
       "mandante": 1,
       "visitante": 0
+    },
+    "G29": {
+      "mandante": 2,
+      "visitante": 0
+    },
+    "G30": {
+      "mandante": 0,
+      "visitante": 1
+    },
+    "G31": {
+      "mandante": 3,
+      "visitante": 0
+    },
+    "G32": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
