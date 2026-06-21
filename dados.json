@@ -2412,6 +2412,10 @@
     "G34": {
       "mandante": 2,
       "visitante": 1
+    },
+    "G35": {
+      "mandante": 0,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
