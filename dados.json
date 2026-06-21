@@ -211,6 +211,22 @@
       "G36": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G38": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 0,
+        "visitante": 1
       }
     },
     "Vinícius": {
@@ -356,6 +372,22 @@
       },
       "G36": {
         "mandante": 0,
+        "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 1,
         "visitante": 2
       }
     },
@@ -503,6 +535,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G37": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -649,6 +697,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Eugênio": {
@@ -793,6 +857,22 @@
         "visitante": 0
       },
       "G36": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G37": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
         "mandante": 0,
         "visitante": 2
       }
@@ -941,6 +1021,22 @@
       "G36": {
         "mandante": 3,
         "visitante": 0
+      },
+      "G37": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -1083,6 +1179,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G37": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G40": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -1229,6 +1341,22 @@
       "G36": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G37": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G39": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Caio": {
@@ -1371,6 +1499,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G37": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G39": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -1512,6 +1656,22 @@
       },
       "G36": {
         "mandante": 1,
+        "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 0,
         "visitante": 2
       }
     },
@@ -1655,6 +1815,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "João Vitor": {
@@ -1797,6 +1973,22 @@
       "G36": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -1931,6 +2123,18 @@
       "G36": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G40": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Ricardo": {
@@ -2059,6 +2263,22 @@
         "visitante": 0
       },
       "G36": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G38": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G39": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G40": {
         "mandante": 0,
         "visitante": 2
       }
@@ -2199,6 +2419,22 @@
       "G36": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G37": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G39": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G40": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -2271,6 +2507,18 @@
         "visitante": 0
       },
       "G36": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G38": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G39": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G40": {
         "mandante": 0,
         "visitante": 3
       }
@@ -2415,6 +2663,14 @@
     },
     "G35": {
       "mandante": 0,
+      "visitante": 0
+    },
+    "G36": {
+      "mandante": 0,
+      "visitante": 4
+    },
+    "G37": {
+      "mandante": 4,
       "visitante": 0
     }
   },
