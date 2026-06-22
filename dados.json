@@ -227,6 +227,22 @@
       "G40": {
         "mandante": 0,
         "visitante": 1
+      },
+      "G41": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Vinícius": {
@@ -389,6 +405,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Lucas": {
@@ -551,6 +583,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 6,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Murilo": {
@@ -713,6 +761,22 @@
       "G40": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -874,6 +938,22 @@
       },
       "G40": {
         "mandante": 0,
+        "visitante": 2
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G42": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 1,
         "visitante": 2
       }
     },
@@ -1037,6 +1117,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -1194,6 +1290,22 @@
       },
       "G40": {
         "mandante": 0,
+        "visitante": 2
+      },
+      "G41": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G44": {
+        "mandante": 1,
         "visitante": 2
       }
     },
@@ -1357,6 +1469,22 @@
       "G40": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Caio": {
@@ -1673,6 +1801,22 @@
       "G40": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 0,
+        "visitante": 1
       }
     },
     "Forlan": {
@@ -1831,6 +1975,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G42": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "João Vitor": {
@@ -1989,6 +2149,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -2135,6 +2311,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G41": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 6,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -2279,6 +2471,22 @@
         "visitante": 0
       },
       "G40": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
         "mandante": 0,
         "visitante": 2
       }
@@ -2435,6 +2643,22 @@
       "G40": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -2521,6 +2745,22 @@
       "G40": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G41": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G42": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G44": {
+        "mandante": 2,
+        "visitante": 1
       }
     }
   },
