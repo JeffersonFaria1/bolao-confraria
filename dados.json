@@ -2680,6 +2680,10 @@
     "G39": {
       "mandante": 2,
       "visitante": 2
+    },
+    "G40": {
+      "mandante": 1,
+      "visitante": 3
     }
   },
   "palpitesBonus": {
