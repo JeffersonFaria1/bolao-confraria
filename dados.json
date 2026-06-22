@@ -2672,6 +2672,14 @@
     "G37": {
       "mandante": 4,
       "visitante": 0
+    },
+    "G38": {
+      "mandante": 0,
+      "visitante": 0
+    },
+    "G39": {
+      "mandante": 2,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
