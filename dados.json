@@ -1643,6 +1643,22 @@
       "G40": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G41": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G42": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G43": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G44": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -2924,6 +2940,10 @@
     "G40": {
       "mandante": 1,
       "visitante": 3
+    },
+    "G41": {
+      "mandante": 2,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
