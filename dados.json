@@ -3212,6 +3212,10 @@
     "G44": {
       "mandante": 1,
       "visitante": 2
+    },
+    "G45": {
+      "mandante": 5,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
