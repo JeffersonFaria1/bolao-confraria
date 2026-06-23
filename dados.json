@@ -2952,6 +2952,10 @@
     "G43": {
       "mandante": 3,
       "visitante": 2
+    },
+    "G44": {
+      "mandante": 1,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
