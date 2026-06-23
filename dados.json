@@ -2944,6 +2944,14 @@
     "G41": {
       "mandante": 2,
       "visitante": 0
+    },
+    "G42": {
+      "mandante": 3,
+      "visitante": 0
+    },
+    "G43": {
+      "mandante": 3,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
