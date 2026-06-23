@@ -1787,6 +1787,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 3,
+        "visitante": 0
       }
     },
     "Gabriel": {
@@ -2883,6 +2899,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Luiz Gabriel": {
@@ -2984,6 +3016,22 @@
       },
       "G44": {
         "mandante": 2,
+        "visitante": 1
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 1,
         "visitante": 1
       }
     }
