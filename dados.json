@@ -243,6 +243,22 @@
       "G44": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 4,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -421,6 +437,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 3
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Lucas": {
@@ -598,6 +630,22 @@
       },
       "G44": {
         "mandante": 1,
+        "visitante": 1
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -777,6 +825,22 @@
       "G44": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G45": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -955,6 +1019,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -1133,6 +1213,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -1306,6 +1402,22 @@
       },
       "G44": {
         "mandante": 1,
+        "visitante": 2
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 3,
         "visitante": 2
       }
     },
@@ -1484,6 +1596,22 @@
       },
       "G44": {
         "mandante": 1,
+        "visitante": 2
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 3,
         "visitante": 2
       }
     },
@@ -1833,6 +1961,22 @@
       "G44": {
         "mandante": 0,
         "visitante": 1
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Forlan": {
@@ -2007,6 +2151,22 @@
       "G44": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "João Vitor": {
@@ -2181,6 +2341,22 @@
       "G44": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G48": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -2343,6 +2519,22 @@
       "G44": {
         "mandante": 3,
         "visitante": 1
+      },
+      "G45": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G47": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 4,
+        "visitante": 0
       }
     },
     "Ricardo": {
@@ -2505,6 +2697,22 @@
       "G44": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G45": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G46": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G47": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G48": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Carlos H.": {
