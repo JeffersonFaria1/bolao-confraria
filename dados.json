@@ -3220,6 +3220,10 @@
     "G46": {
       "mandante": 0,
       "visitante": 0
+    },
+    "G47": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
