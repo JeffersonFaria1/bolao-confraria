@@ -3612,6 +3612,14 @@
     "G48": {
       "mandante": 1,
       "visitante": 0
+    },
+    "G50": {
+      "mandante": 3,
+      "visitante": 1
+    },
+    "G49": {
+      "mandante": 2,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
