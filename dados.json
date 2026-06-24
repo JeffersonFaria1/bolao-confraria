@@ -259,6 +259,30 @@
       "G48": {
         "mandante": 4,
         "visitante": 0
+      },
+      "G49": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G50": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G51": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G52": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G53": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G54": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Vinícius": {
@@ -453,6 +477,30 @@
       "G48": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G49": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G50": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G51": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G52": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G53": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "G54": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -841,6 +889,30 @@
       "G48": {
         "mandante": 3,
         "visitante": 1
+      },
+      "G49": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G50": {
+        "mandante": 0,
+        "visitante": 0
+      },
+      "G51": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G52": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "G53": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G54": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Eugênio": {
@@ -1993,6 +2065,30 @@
       "G48": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G49": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G50": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G51": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G52": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G53": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G54": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Forlan": {
@@ -3224,6 +3320,10 @@
     "G47": {
       "mandante": 0,
       "visitante": 1
+    },
+    "G48": {
+      "mandante": 1,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
