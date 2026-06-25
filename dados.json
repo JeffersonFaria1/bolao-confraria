@@ -2013,12 +2013,12 @@
         "visitante": 0
       },
       "G53": {
-        "mandante": 0,
-        "visitante": 2
-      },
-      "G54": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G54": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -3620,6 +3620,14 @@
     "G49": {
       "mandante": 2,
       "visitante": 1
+    },
+    "G51": {
+      "mandante": 0,
+      "visitante": 3
+    },
+    "G52": {
+      "mandante": 4,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
