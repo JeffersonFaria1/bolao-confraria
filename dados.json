@@ -3628,6 +3628,14 @@
     "G52": {
       "mandante": 4,
       "visitante": 2
+    },
+    "G53": {
+      "mandante": 0,
+      "visitante": 3
+    },
+    "G54": {
+      "mandante": 1,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
