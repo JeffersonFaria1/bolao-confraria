@@ -221,8 +221,9 @@ body { padding-bottom: 3rem; }
   margin: 0 0 .6rem; font-size: 1rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: .05em; color: var(--texto);
 }
-/* tabela à esquerda, confrontos à direita; empilha no celular */
-.grupo-grid { display: flex; gap: 1.5rem; align-items: flex-start; }
+/* tabela à esquerda, confrontos à direita; empilha no celular.
+   stretch p/ os dois cards ficarem da mesma altura (rodapés alinhados) */
+.grupo-grid { display: flex; gap: 1.5rem; align-items: stretch; }
 .grupo-grid > .tabela-grupo { flex: 1 1 0; min-width: 0; }
 .grupo-grid > .grupo-confrontos { flex: 1 1 0; min-width: 0; }
 
