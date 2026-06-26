@@ -307,6 +307,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G65": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Vinícius": {
@@ -791,6 +815,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 2
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -1032,6 +1080,30 @@
       },
       "G60": {
         "mandante": 1,
+        "visitante": 1
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -1275,6 +1347,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Raphael": {
@@ -1517,6 +1613,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G66": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -1755,6 +1875,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Renato": {
@@ -1997,6 +2141,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Caio": {
@@ -2473,6 +2641,30 @@
       "G60": {
         "mandante": 1,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Forlan": {
@@ -2711,6 +2903,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 0
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G64": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G65": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "João Vitor": {
@@ -2949,6 +3165,30 @@
       "G60": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G65": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -3175,6 +3415,54 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G64": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G67": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G68": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G69": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "G70": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G71": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G72": {
+        "mandante": 0,
+        "visitante": 5
       }
     },
     "Ricardo": {
@@ -3401,6 +3689,30 @@
       "G60": {
         "mandante": 1,
         "visitante": 2
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Carlos H.": {
@@ -3635,6 +3947,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -3800,6 +4136,30 @@
       },
       "G59": {
         "mandante": 1,
+        "visitante": 2
+      },
+      "G61": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G66": {
+        "mandante": 0,
         "visitante": 2
       }
     }
