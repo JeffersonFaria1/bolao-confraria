@@ -4036,6 +4036,14 @@
     "G58": {
       "mandante": 1,
       "visitante": 3
+    },
+    "G59": {
+      "mandante": 3,
+      "visitante": 2
+    },
+    "G60": {
+      "mandante": 0,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
