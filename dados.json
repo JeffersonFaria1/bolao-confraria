@@ -573,6 +573,30 @@
       "G60": {
         "mandante": 1,
         "visitante": 0
+      },
+      "G61": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "G63": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "G64": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Lucas": {
