@@ -2211,6 +2211,30 @@
       "G54": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G55": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "G56": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G57": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G58": {
+        "mandante": 0,
+        "visitante": 5
+      },
+      "G59": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G60": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Gabriel": {
@@ -3755,8 +3779,8 @@
         "visitante": 0
       },
       "G55": {
-        "mandante": 0,
-        "visitante": 4
+        "mandante": 1,
+        "visitante": 3
       },
       "G56": {
         "mandante": 0,
@@ -3765,6 +3789,18 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G57": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "G58": {
+        "mandante": 0,
+        "visitante": 4
+      },
+      "G59": {
+        "mandante": 1,
+        "visitante": 2
       }
     }
   },
@@ -3984,6 +4020,22 @@
     "G54": {
       "mandante": 1,
       "visitante": 0
+    },
+    "G55": {
+      "mandante": 2,
+      "visitante": 1
+    },
+    "G56": {
+      "mandante": 0,
+      "visitante": 2
+    },
+    "G57": {
+      "mandante": 1,
+      "visitante": 1
+    },
+    "G58": {
+      "mandante": 1,
+      "visitante": 3
     }
   },
   "palpitesBonus": {
