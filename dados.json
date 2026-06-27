@@ -2427,6 +2427,30 @@
       "G60": {
         "mandante": 2,
         "visitante": 1
+      },
+      "G61": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G62": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G63": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G64": {
+        "mandante": 0,
+        "visitante": 3
+      },
+      "G65": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G66": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -4428,6 +4452,22 @@
     "G60": {
       "mandante": 0,
       "visitante": 0
+    },
+    "G61": {
+      "mandante": 1,
+      "visitante": 4
+    },
+    "G62": {
+      "mandante": 5,
+      "visitante": 0
+    },
+    "G63": {
+      "mandante": 0,
+      "visitante": 0
+    },
+    "G64": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
