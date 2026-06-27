@@ -621,6 +621,30 @@
       "G66": {
         "mandante": 0,
         "visitante": 2
+      },
+      "G67": {
+        "mandante": 0,
+        "visitante": 5
+      },
+      "G68": {
+        "mandante": 0,
+        "visitante": 0
+      },
+      "G69": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "G70": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "G71": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G72": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Lucas": {
@@ -4025,6 +4049,30 @@
       "G66": {
         "mandante": 0,
         "visitante": 3
+      },
+      "G67": {
+        "mandante": 0,
+        "visitante": 5
+      },
+      "G68": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "G69": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "G70": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G71": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "G72": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Carlos H.": {
