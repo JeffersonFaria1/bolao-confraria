@@ -19,7 +19,8 @@ export function numeroDoJogo(id) {
 }
 
 // Vencedor (e perdedor) de um confronto já resolvido e com resultado.
-// Em empate no tempo normal, decide pelos pênaltis (se lançados).
+// Decide pelo placar dos 90 min; em empate, pelo marcador "avancou"
+// (prorrogação/pênaltis) e, em último caso, pelo placar dos pênaltis.
 function desfecho(jogoId, lados, resultados) {
   const r = resultados[jogoId];
   const lado = lados[jogoId];
@@ -30,6 +31,8 @@ function desfecho(jogoId, lados, resultados) {
   let venc = null;
   if (r.mandante > r.visitante) venc = 'M';
   else if (r.visitante > r.mandante) venc = 'V';
+  else if (r.avancou === 'mandante') venc = 'M';
+  else if (r.avancou === 'visitante') venc = 'V';
   else {
     const p = r.penaltis;
     if (p && p.mandante != null && p.visitante != null) {
@@ -37,7 +40,7 @@ function desfecho(jogoId, lados, resultados) {
       else if (p.visitante > p.mandante) venc = 'V';
     }
   }
-  if (!venc) return null; // empate sem pênaltis decisivos
+  if (!venc) return null; // empate sem desfecho definido
   return venc === 'M'
     ? { vencedor: mandante, perdedor: visitante }
     : { vencedor: visitante, perdedor: mandante };

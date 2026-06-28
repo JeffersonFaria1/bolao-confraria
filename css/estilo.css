@@ -124,10 +124,13 @@ body {
 .jogo-sel { flex: 1; display: flex; align-items: center; gap: .4rem; }
 .jogo-sel.visitante { justify-content: flex-end; }
 .placar-input { width: 3rem; text-align: center; font-size: 1.1rem; padding: .3rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg); color: var(--texto); }
-.jogo-penaltis { display: flex; align-items: center; gap: .4rem; margin-top: .5rem; flex-wrap: wrap; }
+.jogo-desfecho { margin-top: .5rem; padding-top: .5rem; border-top: 1px dashed var(--borda); display: flex; flex-direction: column; gap: .35rem; }
+.jogo-desfecho[hidden] { display: none; }
+.desfecho-linha { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
 .penaltis-rotulo { font-size: .78rem; color: var(--texto-fraco); margin-right: .2rem; }
 .penaltis-x { color: var(--texto-fraco); }
 .penalti-input { width: 2.4rem; text-align: center; font-size: .95rem; padding: .2rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg); color: var(--texto); }
+.avancou-select { font-size: .9rem; padding: .2rem .4rem; border-radius: 6px; border: 1px solid var(--borda); background: var(--bg); color: var(--texto); }
 .subabas { display: flex; gap: .5rem; margin-bottom: 1rem; }
 .subaba { background: none; border: 1px solid var(--borda); color: var(--texto-fraco); padding: .4rem .8rem; border-radius: 20px; cursor: pointer; }
 .subaba.ativa { background: var(--destaque); color: #12100c; border-color: var(--destaque); }
