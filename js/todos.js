@@ -1,4 +1,5 @@
 import { exibicao, escapeHtml } from './ui.js';
+import { resolverMataMata } from './resolver-mata-mata.js';
 
 const SIMBOLO = { cravou: '✓', cenario: '~', erro: '✗' };
 
@@ -60,6 +61,12 @@ function segmentoAtual(jogos, resultados) {
 export function renderTodos(el, estado) {
   const { participantes, palpites, resultados } = estado.dados;
   const jogos = estado.jogos;
+  // Confrontos do mata-mata resolvidos (1A→seleção real) para a coluna "Jogo".
+  const resolvido = resolverMataMata(jogos, resultados);
+  const confronto = (jogo) => {
+    const lado = resolvido[jogo.id] || {};
+    return `${lado.mandante ?? jogo.mandante}×${lado.visitante ?? jogo.visitante}`;
+  };
 
   const titulo = document.createElement('h2');
   titulo.style.color = 'var(--destaque)';
@@ -142,7 +149,7 @@ export function renderTodos(el, estado) {
       const tr = document.createElement('tr');
       // Jogo encerrado: cada célula já mostra o acerto; só destacamos os de hoje sem resultado.
       if (!oficial && jogo.data === hoje) tr.classList.add('linha-hoje');
-      tr.innerHTML = `<td>${jogo.mandante}×${jogo.visitante}</td><td><strong>${oficialTxt}</strong></td>${celulas}`;
+      tr.innerHTML = `<td>${confronto(jogo)}</td><td><strong>${oficialTxt}</strong></td>${celulas}`;
       tbody.appendChild(tr);
     }
 
