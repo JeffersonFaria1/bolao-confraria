@@ -4836,6 +4836,30 @@
     "G66": {
       "mandante": 1,
       "visitante": 5
+    },
+    "G67": {
+      "mandante": 0,
+      "visitante": 2
+    },
+    "G68": {
+      "mandante": 2,
+      "visitante": 1
+    },
+    "G69": {
+      "mandante": 0,
+      "visitante": 0
+    },
+    "G70": {
+      "mandante": 3,
+      "visitante": 1
+    },
+    "G71": {
+      "mandante": 3,
+      "visitante": 3
+    },
+    "G72": {
+      "mandante": 1,
+      "visitante": 3
     }
   },
   "palpitesBonus": {

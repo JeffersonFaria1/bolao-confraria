@@ -1,6 +1,7 @@
 import { selecao } from './selecoes.js';
 import { escapeHtml, rotuloFase, renderJogosPorData } from './ui.js';
 import { calcularTabelaGrupo } from './tabela-grupos.js';
+import { resolverMataMata } from './resolver-mata-mata.js';
 
 // Filtro de fases (espelha a aba "Todos os palpites"): grupos num único
 // segmento + as fases do mata-mata. A rodada dos grupos é navegada dentro
@@ -217,6 +218,8 @@ function cardMata(jogo, resultado) {
 export function renderResultados(el, estado) {
   const { resultados } = estado.dados;
   const jogos = estado.jogos;
+  // Resolve os placeholders do mata-mata (1A, 3ABCDF, V73…) em seleções reais.
+  const resolvido = resolverMataMata(jogos, resultados);
 
   const titulo = document.createElement('h2');
   titulo.style.color = 'var(--destaque)';
@@ -276,7 +279,15 @@ export function renderResultados(el, estado) {
         wrap.appendChild(vazio);
         return;
       }
-      renderJogosPorData(wrap, jogosSeg, (jogo) => cardMata(jogo, resultados[jogo.id]));
+      renderJogosPorData(wrap, jogosSeg, (jogo) => {
+        const lado = resolvido[jogo.id] || {};
+        const efetivo = {
+          ...jogo,
+          mandante: lado.mandante ?? jogo.mandante,
+          visitante: lado.visitante ?? jogo.visitante,
+        };
+        return cardMata(efetivo, resultados[jogo.id]);
+      });
     }
   }
 
