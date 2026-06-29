@@ -359,6 +359,18 @@
       "D01": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D03": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Vinícius": {
@@ -2993,6 +3005,18 @@
       "D01": {
         "mandante": 1,
         "visitante": 2
+      },
+      "D02": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Forlan": {
@@ -4413,6 +4437,18 @@
         "visitante": 4
       },
       "D01": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D03": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "D04": {
         "mandante": 1,
         "visitante": 2
       }
