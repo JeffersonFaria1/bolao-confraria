@@ -355,6 +355,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 3
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Vinícius": {
@@ -645,6 +649,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 3
+      },
+      "D01": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -935,6 +943,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Murilo": {
@@ -1225,6 +1237,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -1514,6 +1530,10 @@
       },
       "G72": {
         "mandante": 0,
+        "visitante": 2
+      },
+      "D01": {
+        "mandante": 1,
         "visitante": 2
       }
     },
@@ -1805,6 +1825,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Wilton": {
@@ -2091,6 +2115,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -2381,6 +2409,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Caio": {
@@ -2667,6 +2699,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -2953,6 +2989,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Forlan": {
@@ -3239,6 +3279,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "João Vitor": {
@@ -3525,6 +3569,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 5
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Myckael": {
@@ -3799,6 +3847,10 @@
       "G72": {
         "mandante": 0,
         "visitante": 5
+      },
+      "D01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -4071,6 +4123,10 @@
         "visitante": 1
       },
       "G72": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "D01": {
         "mandante": 0,
         "visitante": 2
       }
@@ -4355,6 +4411,10 @@
       "G72": {
         "mandante": 1,
         "visitante": 4
+      },
+      "D01": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Luiz Gabriel": {
@@ -4567,6 +4627,10 @@
         "visitante": 1
       },
       "G72": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "D01": {
         "mandante": 1,
         "visitante": 3
       }
@@ -4860,6 +4924,10 @@
     "G72": {
       "mandante": 1,
       "visitante": 3
+    },
+    "D01": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
