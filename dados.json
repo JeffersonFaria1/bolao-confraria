@@ -1277,6 +1277,18 @@
       "D01": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -1571,6 +1583,18 @@
       "D01": {
         "mandante": 1,
         "visitante": 2
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2775,6 +2799,18 @@
       "D01": {
         "mandante": 0,
         "visitante": 2
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D03": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Gabriel": {
@@ -3369,7 +3405,7 @@
         "visitante": 3
       },
       "D02": {
-        "mandante": 2,
+        "mandante": 3,
         "visitante": 0
       },
       "D03": {
@@ -4249,6 +4285,18 @@
       "D01": {
         "mandante": 0,
         "visitante": 2
+      },
+      "D02": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D03": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Carlos H.": {
@@ -4765,6 +4813,18 @@
       "D01": {
         "mandante": 1,
         "visitante": 3
+      },
+      "D02": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D03": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "D04": {
+        "mandante": 3,
+        "visitante": 1
       }
     }
   },
@@ -5060,6 +5120,28 @@
     "D01": {
       "mandante": 0,
       "visitante": 1
+    },
+    "D02": {
+      "mandante": 2,
+      "visitante": 1
+    },
+    "D03": {
+      "mandante": 1,
+      "visitante": 1,
+      "penaltis": {
+        "mandante": 3,
+        "visitante": 4
+      },
+      "avancou": "visitante"
+    },
+    "D04": {
+      "mandante": 1,
+      "visitante": 1,
+      "penaltis": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "avancou": "visitante"
     }
   },
   "palpitesBonus": {
