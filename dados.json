@@ -1643,6 +1643,18 @@
       "D04": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D06": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D07": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Raphael": {
