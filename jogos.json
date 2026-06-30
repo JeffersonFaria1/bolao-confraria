@@ -796,18 +796,18 @@
     "fase": "oitavas",
     "grupo": null,
     "data": "2026-07-04",
-    "horario": "14:00",
-    "mandante": "V73",
-    "visitante": "V75"
+    "horario": "18:00",
+    "mandante": "V75",
+    "visitante": "V78"
   },
   {
     "id": "O02",
     "fase": "oitavas",
     "grupo": null,
     "data": "2026-07-04",
-    "horario": "18:00",
-    "mandante": "V74",
-    "visitante": "V77"
+    "horario": "14:00",
+    "mandante": "V73",
+    "visitante": "V76"
   },
   {
     "id": "O03",
@@ -815,8 +815,8 @@
     "grupo": null,
     "data": "2026-07-05",
     "horario": "17:00",
-    "mandante": "V76",
-    "visitante": "V78"
+    "mandante": "V74",
+    "visitante": "V77"
   },
   {
     "id": "O04",
@@ -833,17 +833,17 @@
     "grupo": null,
     "data": "2026-07-06",
     "horario": "16:00",
-    "mandante": "V83",
-    "visitante": "V84"
+    "mandante": "V84",
+    "visitante": "V83"
   },
   {
     "id": "O06",
     "fase": "oitavas",
     "grupo": null,
     "data": "2026-07-06",
-    "horario": "18:00",
-    "mandante": "V81",
-    "visitante": "V82"
+    "horario": "21:00",
+    "mandante": "V82",
+    "visitante": "V81"
   },
   {
     "id": "O07",
@@ -851,8 +851,8 @@
     "grupo": null,
     "data": "2026-07-07",
     "horario": "13:00",
-    "mandante": "V86",
-    "visitante": "V88"
+    "mandante": "V87",
+    "visitante": "V86"
   },
   {
     "id": "O08",
@@ -861,7 +861,7 @@
     "data": "2026-07-07",
     "horario": "17:00",
     "mandante": "V85",
-    "visitante": "V87"
+    "visitante": "V88"
   },
   {
     "id": "Q01",
