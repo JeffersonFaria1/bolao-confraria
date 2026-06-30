@@ -5005,6 +5005,18 @@
       "D04": {
         "mandante": 3,
         "visitante": 1
+      },
+      "D05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "D06": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D07": {
+        "mandante": 1,
+        "visitante": 2
       }
     }
   },
