@@ -713,6 +713,18 @@
       "D07": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D08": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Lucas": {
@@ -1361,6 +1373,18 @@
       "D07": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D08": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -1678,6 +1702,18 @@
       },
       "D07": {
         "mandante": 1,
+        "visitante": 1
+      },
+      "D08": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -2979,6 +3015,18 @@
       "D07": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D08": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Gabriel": {
@@ -3293,6 +3341,14 @@
       "D07": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D09": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Forlan": {
@@ -3933,6 +3989,18 @@
       "D07": {
         "mandante": 1,
         "visitante": 0
+      },
+      "D08": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D09": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -4235,6 +4303,18 @@
       "D07": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D08": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Ricardo": {
@@ -4537,6 +4617,18 @@
       "D07": {
         "mandante": 1,
         "visitante": 2
+      },
+      "D08": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Carlos H.": {
@@ -4847,6 +4939,18 @@
       "D07": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D08": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D09": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D10": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Luiz Gabriel": {
@@ -5089,6 +5193,14 @@
       "D07": {
         "mandante": 1,
         "visitante": 2
+      },
+      "D09": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D10": {
+        "mandante": 3,
+        "visitante": 0
       }
     }
   },
