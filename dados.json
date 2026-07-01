@@ -5534,6 +5534,11 @@
     "D08": {
       "mandante": 2,
       "visitante": 1
+    },
+    "D09": {
+      "mandante": 2,
+      "visitante": 2,
+      "avancou": "mandante"
     }
   },
   "palpitesBonus": {
