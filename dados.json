@@ -5530,6 +5530,10 @@
     "D07": {
       "mandante": 2,
       "visitante": 0
+    },
+    "D08": {
+      "mandante": 2,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
