@@ -39,7 +39,9 @@ if (temaSalvo) {
 }
 
 async function carregar(arquivo) {
-  const r = await fetch(arquivo);
+  // Cache-busting: o GitHub Pages serve estes JSON com max-age=600, então sem a
+  // query única o navegador mostraria dados velhos por até 10 min após publicar.
+  const r = await fetch(`${arquivo}?v=${Date.now()}`, { cache: 'no-store' });
   if (!r.ok) throw new Error(`falha ao carregar ${arquivo}`);
   return r.json();
 }
