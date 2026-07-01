@@ -5342,6 +5342,10 @@
     "D06": {
       "mandante": 3,
       "visitante": 0
+    },
+    "D07": {
+      "mandante": 2,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
