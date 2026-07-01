@@ -5334,6 +5334,14 @@
         "visitante": 3
       },
       "avancou": "visitante"
+    },
+    "D05": {
+      "mandante": 1,
+      "visitante": 2
+    },
+    "D06": {
+      "mandante": 3,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
