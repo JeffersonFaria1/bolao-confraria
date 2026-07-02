@@ -1,6 +1,6 @@
 // public/js/vista-estatisticas.js — aba Estatísticas (compartilhada).
-import { aproveitamento, raioXCompeticao, corridaPorRodada, confronto } from './estatisticas.js';
-import { graficoLinha, graficoBarras, graficoDistribuicao } from './graficos.js';
+import { aproveitamento, raioXCompeticao, confronto } from './estatisticas.js';
+import { graficoDistribuicao } from './graficos.js';
 import { SELECOES } from './selecoes.js';
 
 const nomeSel = (cod) => (SELECOES[cod]?.nome || SELECOES[cod]?.pais || cod || '—');
@@ -17,28 +17,31 @@ function bloco(titulo) {
   return w;
 }
 
-function abaCorrida(estado) {
-  const el = document.createElement('div');
-  const corrida = corridaPorRodada(estado.dados, estado.jogos);
-  if (corrida.checkpoints.length < 2) { el.textContent = 'Sem rodadas suficientes ainda.'; return el; }
-  const w = bloco('Corrida pela liderança');
-  w.appendChild(graficoLinha(corrida, { altura: 320 }));
-  const cap = document.createElement('div');
-  cap.className = 'grafico-legenda';
-  cap.textContent = 'Linhas coloridas: os líderes (nome no fim da linha); demais em cinza. Eixo Y = pontos acumulados, eixo X = rodadas.';
-  w.appendChild(cap);
-  el.appendChild(w);
-  return el;
-}
-
 function abaAproveitamento(estado) {
   const el = document.createElement('div');
   const apr = aproveitamento(estado.dados, estado.jogos);
-  const itens = [...apr.porParticipante]
-    .sort((a, b) => b.aproveitamentoPct - a.aproveitamentoPct)
-    .map((p) => ({ rotulo: p.exibicao, valor: Math.round(p.aproveitamentoPct * 100) }));
-  const w = bloco('Aproveitamento (%)');
-  w.appendChild(graficoBarras(itens, { altura: 260 }));
+  const lista = [...apr.porParticipante].sort((a, b) => b.aproveitamentoPct - a.aproveitamentoPct);
+
+  const w = bloco('Aproveitamento por participante');
+  const sub = document.createElement('div');
+  sub.style.cssText = 'font-size:.82rem;color:var(--texto-fraco);margin:-.2rem 0 .7rem';
+  sub.textContent = '% dos pontos obtidos sobre o máximo possível nos jogos que cada um palpitou (cravar = 10, acertar o cenário = 5).';
+  w.appendChild(sub);
+  const barras = document.createElement('div');
+  barras.className = 'barras-h';
+  for (const p of lista) {
+    const pct = Math.round(p.aproveitamentoPct * 100);
+    const row = document.createElement('div');
+    row.className = 'barra-h';
+    const nome = document.createElement('span'); nome.className = 'barra-h-nome'; nome.textContent = p.exibicao;
+    const trilho = document.createElement('span'); trilho.className = 'barra-h-trilho';
+    const fill = document.createElement('span'); fill.className = 'barra-h-fill'; fill.style.width = `${pct}%`;
+    trilho.appendChild(fill);
+    const val = document.createElement('span'); val.className = 'barra-h-val'; val.textContent = `${pct}%`;
+    row.append(nome, trilho, val);
+    barras.appendChild(row);
+  }
+  w.appendChild(barras);
   el.appendChild(w);
 
   const grid = document.createElement('div');
@@ -120,7 +123,6 @@ function abaPerfil(estado) {
 }
 
 const SUBABAS = [
-  { key: 'corrida', label: 'Corrida', render: abaCorrida },
   { key: 'aproveitamento', label: 'Aproveitamento', render: abaAproveitamento },
   { key: 'raiox', label: 'Raio-X', render: abaRaioX },
   { key: 'perfil', label: 'Perfil & confronto', render: abaPerfil },
@@ -138,7 +140,7 @@ export function renderEstatisticas(el, estado) {
   const alvo = document.createElement('div');
   el.appendChild(alvo);
 
-  let ativo = 'corrida';
+  let ativo = 'aproveitamento';
   function desenhar() {
     pills.innerHTML = '';
     for (const s of SUBABAS) {
