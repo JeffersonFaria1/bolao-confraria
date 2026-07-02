@@ -5539,6 +5539,10 @@
       "mandante": 2,
       "visitante": 2,
       "avancou": "mandante"
+    },
+    "D10": {
+      "mandante": 2,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
