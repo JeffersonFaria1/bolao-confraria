@@ -3,7 +3,6 @@ import { aproveitamento, raioXCompeticao, corridaPorRodada, confronto } from './
 import { graficoLinha, graficoBarras, graficoDistribuicao } from './graficos.js';
 import { SELECOES } from './selecoes.js';
 
-const CORES = ['#10b981', '#fbbf24', '#38bdf8', '#f472b6', '#a78bfa', '#f97316', '#34d399', '#e879f9'];
 const nomeSel = (cod) => (SELECOES[cod]?.nome || SELECOES[cod]?.pais || cod || '—');
 
 function bloco(titulo) {
@@ -23,16 +22,11 @@ function abaCorrida(estado) {
   const corrida = corridaPorRodada(estado.dados, estado.jogos);
   if (corrida.checkpoints.length < 2) { el.textContent = 'Sem rodadas suficientes ainda.'; return el; }
   const w = bloco('Corrida pela liderança');
-  w.appendChild(graficoLinha(corrida, { altura: 300 }));
-  const leg = document.createElement('div');
-  leg.className = 'grafico-legenda';
-  corrida.series.forEach((s, i) => {
-    const sp = document.createElement('span');
-    sp.innerHTML = `<i style="background:${CORES[i % CORES.length]}"></i>`;
-    sp.append(s.exibicao);
-    leg.appendChild(sp);
-  });
-  w.appendChild(leg);
+  w.appendChild(graficoLinha(corrida, { altura: 320 }));
+  const cap = document.createElement('div');
+  cap.className = 'grafico-legenda';
+  cap.textContent = 'Linhas coloridas: os líderes (nome no fim da linha); demais em cinza. Eixo Y = pontos acumulados, eixo X = rodadas.';
+  w.appendChild(cap);
   el.appendChild(w);
   return el;
 }

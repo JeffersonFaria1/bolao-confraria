@@ -1,7 +1,6 @@
 // public/js/vista-inicio.js — Painel (dashboard) compartilhado pelos dois front-ends.
 import { calcularRanking } from './pontuacao.js';
-import { aproveitamento, corridaPorRodada } from './estatisticas.js';
-import { graficoLinha } from './graficos.js';
+import { aproveitamento } from './estatisticas.js';
 
 function tile(rotulo, valor) {
   const d = document.createElement('div');
@@ -49,18 +48,6 @@ export function renderInicio(el, estado) {
     tile('🔥 Mais arrisca', apr.maisArrisca ? apr.maisArrisca.exibicao : '—'),
   );
   el.appendChild(destaques);
-
-  // Mini-gráfico da corrida
-  const corrida = corridaPorRodada(estado.dados, estado.jogos);
-  if (corrida.checkpoints.length >= 2) {
-    const wrap = document.createElement('div');
-    wrap.className = 'grafico-wrap';
-    const t = document.createElement('div');
-    t.style.cssText = 'font-weight:700;margin-bottom:.4rem';
-    t.textContent = 'Corrida pela liderança';
-    wrap.append(t, graficoLinha(corrida, { altura: 200 }));
-    el.appendChild(wrap);
-  }
 
   // Tabela completa (reaproveita estilo de tabela)
   const tabela = document.createElement('table');

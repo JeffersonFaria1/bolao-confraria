@@ -384,6 +384,11 @@ body { padding-bottom: 3rem; }
 .grafico-legenda { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: .6rem; font-size: .82rem; color: var(--texto-fraco); }
 .grafico-legenda span { display: inline-flex; align-items: center; gap: .35rem; }
 .grafico-legenda i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+/* eixos e rótulos do gráfico de linha */
+.grafico .grade { stroke: var(--vidro-borda); stroke-width: 1; }
+.grafico .eixo-num { fill: var(--texto-fraco); font-size: 10px; font-family: system-ui, sans-serif; }
+.grafico .nome-fim { font-size: 11px; font-weight: 700; font-family: system-ui, sans-serif; }
+.grafico .serie-mute { stroke: var(--texto-fraco); opacity: .22; }
 /* animação sutil de entrada da linha */
 .linha-serie { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: desenha 1s ease forwards; }
 @keyframes desenha { to { stroke-dashoffset: 0; } }
