@@ -59,17 +59,23 @@ function abaAproveitamento(estado) {
 function abaRaioX(estado) {
   const el = document.createElement('div');
   const r = raioXCompeticao(estado.dados, estado.jogos);
+  const intro = document.createElement('div');
+  intro.style.cssText = 'font-size:.82rem;color:var(--texto-fraco);margin:.1rem 0 .8rem';
+  intro.textContent = 'Panorama da competição. "Taxa de acerto" = % dos participantes que pontuaram no jogo (cravaram ou acertaram o cenário).';
+  el.appendChild(intro);
+
   const grid = document.createElement('div');
   grid.className = 'painel-destaques';
   const tile = (rot, v) => { const d = document.createElement('div'); d.className = 'stat-tile'; d.innerHTML = `<div class="rotulo">${rot}</div><div class="valor"></div>`; d.querySelector('.valor').textContent = v; return d; };
-  const jogoTxt = (j) => j ? `${nomeSel(j.mandante)} × ${nomeSel(j.visitante)} (${Math.round(j.taxaAcerto * 100)}%)` : '—';
+  const jogoTxt = (j) => j ? `${nomeSel(j.mandante)} × ${nomeSel(j.visitante)} — ${Math.round(j.taxaAcerto * 100)}% acertaram` : '—';
+  const selTxt = (s) => s ? `${nomeSel(s.codigo)} (${Math.round(s.taxa * 100)}% de acerto)` : '—';
   grid.append(
     tile('🤯 Jogo que mais dividiu', jogoTxt(r.jogoMaisDividiu)),
-    tile('✅ Mais previsível', jogoTxt(r.jogoMaisFacil)),
-    tile('🏆 Campeão mais palpitado', r.campeaoMaisPalpitado ? `${nomeSel(r.campeaoMaisPalpitado.codigo)} (${r.campeaoMaisPalpitado.votos})` : '—'),
-    tile('⚽ Gols/jogo (oficial × palpite)', `${r.mediaGolsOficial.toFixed(1)} × ${r.mediaGolsPalpite.toFixed(1)}`),
-    tile('🎯 Seleção mais acertada', r.selecaoMaisAcertada ? nomeSel(r.selecaoMaisAcertada.codigo) : '—'),
-    tile('🎲 Seleção menos acertada', r.selecaoMenosAcertada ? nomeSel(r.selecaoMenosAcertada.codigo) : '—'),
+    tile('✅ Jogo mais previsível', jogoTxt(r.jogoMaisFacil)),
+    tile('🏆 Campeão mais palpitado', r.campeaoMaisPalpitado ? `${nomeSel(r.campeaoMaisPalpitado.codigo)} (${r.campeaoMaisPalpitado.votos} votos)` : '—'),
+    tile('⚽ Média de gols por jogo', `real ${r.mediaGolsOficial.toFixed(1)} · palpitada ${r.mediaGolsPalpite.toFixed(1)}`),
+    tile('🎯 Seleção mais acertada', selTxt(r.selecaoMaisAcertada)),
+    tile('🎲 Seleção menos acertada', selTxt(r.selecaoMenosAcertada)),
   );
   el.appendChild(grid);
   return el;
@@ -78,6 +84,10 @@ function abaRaioX(estado) {
 function abaPerfil(estado) {
   const el = document.createElement('div');
   const nomes = (estado.dados.participantes || []).map((p) => p.nome);
+  const intro = document.createElement('div');
+  intro.style.cssText = 'font-size:.82rem;color:var(--texto-fraco);margin:.1rem 0 .8rem';
+  intro.textContent = 'Compare os números de dois participantes. A barra colorida mostra a proporção de placares cravados, cenários certos e erros.';
+  el.appendChild(intro);
   const barra = document.createElement('div');
   barra.style.cssText = 'display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem';
   const selA = document.createElement('select'); selA.className = 'seletor';
@@ -102,7 +112,7 @@ function abaPerfil(estado) {
       <div>Pontos: <b>${p.pontos}</b></div>
       <div>Cravadas: <b>${p.cravadas}</b></div>
       <div>Aproveitamento: <b>${Math.round(p.aproveitamentoPct * 100)}%</b></div>
-      <div style="margin-top:.5rem;font-size:.8rem;color:var(--texto-fraco)">Cravou ${p.cravou} · Cenário ${p.cenario} · Erro ${p.erro}</div>`;
+      <div style="margin-top:.5rem;font-size:.82rem"><span style="color:#10b981;font-weight:700">Cravou ${p.cravou}</span> · <span style="color:#fbbf24;font-weight:700">Cenário ${p.cenario}</span> · <span style="color:#ef4444;font-weight:700">Erro ${p.erro}</span></div>`;
     c.querySelector('h3').textContent = p.exibicao;
     c.appendChild(graficoDistribuicao(p, {}));
     return c;
