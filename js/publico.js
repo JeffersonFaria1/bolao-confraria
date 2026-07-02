@@ -1,14 +1,15 @@
-import { calcularRanking } from './pontuacao.js';
-import { renderClassificacao } from './classificacao.js';
+import { renderInicio } from './vista-inicio.js';
+import { renderEstatisticas } from './vista-estatisticas.js';
 import { renderResultados } from './resultados.js';
 import { renderTodos } from './todos.js';
 import { renderBonus } from './bonus.js';
 
 const conteudo = document.getElementById('conteudo');
-const estado = { dados: null, jogos: null, ranking: null };
+const estado = { dados: null, jogos: null };
 
 const RENDER = {
-  classificacao: renderClassificacao,
+  inicio: renderInicio,
+  estatisticas: renderEstatisticas,
   resultados: renderResultados,
   todos: renderTodos,
   bonus: renderBonus,
@@ -50,12 +51,11 @@ async function carregar(arquivo) {
   try {
     estado.dados = await carregar('dados.json');
     estado.jogos = await carregar('jogos.json');
-    estado.ranking = calcularRanking(estado.dados, estado.jogos);
     const snap = await carregar('snapshot.json').catch(() => null);
     if (snap && snap.atualizadoEmTexto) {
       document.getElementById('snapshot').textContent = `atualizado em ${snap.atualizadoEmTexto}`;
     }
-    mostrarAba('classificacao');
+    mostrarAba('inicio');
   } catch (e) {
     conteudo.innerHTML = `<p style="color:#e07a5f">Erro ao carregar os dados: ${e.message}</p>`;
   }

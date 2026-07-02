@@ -1,4 +1,4 @@
-// lib/pontuacao.js
+// public/js/pontuacao.js
 const PONTOS = { exato: 10, vencedor: 5, erro: 0 };
 const PONTOS_BONUS = { campeao: 50, vice: 25, artilheiro: 15, desempenhoBrasil: 25, neymarMarca: 10 };
 
