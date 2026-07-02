@@ -395,6 +395,18 @@
       "D10": {
         "mandante": 3,
         "visitante": 1
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "D13": {
+        "mandante": 0,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -725,6 +737,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D13": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Lucas": {
@@ -1054,6 +1078,18 @@
       },
       "D10": {
         "mandante": 3,
+        "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -1385,6 +1421,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "D13": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -2045,6 +2093,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -2371,6 +2431,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Renato": {
@@ -2701,6 +2773,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Caio": {
@@ -3027,6 +3111,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D13": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Gabriel": {
@@ -3348,6 +3444,18 @@
       },
       "D10": {
         "mandante": 2,
+        "visitante": 0
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D13": {
+        "mandante": 1,
         "visitante": 0
       }
     },
@@ -3673,6 +3781,18 @@
         "visitante": 0
       },
       "D10": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D13": {
         "mandante": 2,
         "visitante": 0
       }
@@ -4001,6 +4121,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -4315,6 +4447,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -4627,6 +4771,18 @@
         "visitante": 1
       },
       "D10": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D13": {
         "mandante": 2,
         "visitante": 1
       }
@@ -4950,6 +5106,18 @@
       },
       "D10": {
         "mandante": 3,
+        "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "D12": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "D13": {
+        "mandante": 2,
         "visitante": 1
       }
     },
