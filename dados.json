@@ -1763,6 +1763,18 @@
       "D10": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D11": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D12": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D13": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Raphael": {
@@ -5368,6 +5380,18 @@
       },
       "D10": {
         "mandante": 3,
+        "visitante": 0
+      },
+      "D11": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D12": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D13": {
+        "mandante": 2,
         "visitante": 0
       }
     }
