@@ -5739,6 +5739,10 @@
     "D11": {
       "mandante": 3,
       "visitante": 0
+    },
+    "D12": {
+      "mandante": 2,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
