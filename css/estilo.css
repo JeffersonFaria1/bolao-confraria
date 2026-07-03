@@ -23,6 +23,12 @@
   --acerto-exato: #12513a;
   --acerto-cenario: #b48512;
   --acerto-erro: #7f1d1d;
+  --acerto-exato-suave: rgba(16, 185, 129, .16);
+  --acerto-cenario-suave: rgba(251, 191, 36, .16);
+  --acerto-erro-suave: rgba(239, 68, 68, .15);
+  --mk-cravou: #34d399;
+  --mk-cenario: #fbbf24;
+  --mk-erro: #f87171;
 }
 [data-tema="claro"] {
   --bg: #f3f7f4;
@@ -38,6 +44,12 @@
   --acerto-exato: #c9ecd2;
   --acerto-cenario: #f9da6e;
   --acerto-erro: #e2493c;
+  --acerto-exato-suave: rgba(16, 185, 129, .15);
+  --acerto-cenario-suave: rgba(234, 179, 8, .22);
+  --acerto-erro-suave: rgba(226, 73, 60, .15);
+  --mk-cravou: #059669;
+  --mk-cenario: #b45309;
+  --mk-erro: #dc2626;
 }
 * { box-sizing: border-box; }
 body {
@@ -174,8 +186,8 @@ th, td { padding: .6rem; text-align: left; border-bottom: 1px solid var(--borda)
 th { color: var(--destaque); }
 tbody tr { transition: background .15s; }
 
-/* Tabela "Todos os palpites": usa a largura toda da tela; rola dentro de si
-   (vertical + horizontal) para manter cabeçalho e 1ª coluna sempre visíveis */
+/* Tabela "Todos os palpites": contêiner de vidro, full-bleed, rola dentro de si
+   (vertical + horizontal) mantendo cabeçalho e 2 primeiras colunas fixos */
 .tabela-rolante {
   overflow: auto;
   max-height: 80vh;
@@ -184,40 +196,130 @@ tbody tr { transition: background .15s; }
   margin-right: calc(50% - 50vw);
   padding: 0 1.5rem;
 }
-.tabela-palpites { width: auto; min-width: 100%; }
-.tabela-palpites th, .tabela-palpites td { white-space: nowrap; padding: .5rem .7rem; text-align: center; border: 2px solid #000; }
-/* Cabeçalho (linha dos nomes) fixo ao rolar para baixo */
-.tabela-palpites thead th { position: sticky; top: 0; z-index: 3; background: var(--bg); }
-/* Primeira coluna (Jogo) fixa ao rolar para o lado */
+.tabela-palpites {
+  width: auto;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: .92rem;
+}
+.tabela-palpites th, .tabela-palpites td {
+  white-space: nowrap;
+  padding: .55rem .8rem;
+  text-align: center;
+  border-bottom: 1px solid var(--vidro-borda);
+}
+/* Cabeçalho (nomes) fixo ao rolar para baixo — fundo de vidro */
+.tabela-palpites thead th {
+  position: sticky; top: 0; z-index: 3;
+  background: var(--bg-card);
+  color: var(--texto);
+  font-weight: 600;
+  border-bottom: 2px solid var(--vidro-borda);
+}
+/* 1ª coluna (Jogo) fixa ao rolar para o lado */
 .tabela-palpites th:first-child, .tabela-palpites td:first-child {
-  position: sticky; left: 0; background: var(--bg);
-  border-right: 1px solid var(--borda);
+  position: sticky; left: 0;
+  background: var(--bg-card);
+  border-right: 1px solid var(--vidro-borda);
+  text-align: left;
 }
 .tabela-palpites td:first-child { z-index: 1; }
 /* Canto (cabeçalho da 1ª coluna): fixo nos dois eixos, por cima de tudo */
 .tabela-palpites thead th:first-child { z-index: 4; }
-/* Segunda coluna (Oficial) também fixa, logo após a 1ª (--col2-left medido via JS) */
+/* 2ª coluna (Oficial) também fixa (--col2-left medido via JS) */
 .tabela-palpites th:nth-child(2), .tabela-palpites td:nth-child(2) {
-  position: sticky; left: var(--col2-left, 0); background: var(--bg);
-  border-right: 1px solid var(--borda);
+  position: sticky; left: var(--col2-left, 0);
+  background: var(--bg-card);
+  border-right: 1px solid var(--vidro-borda);
 }
 .tabela-palpites td:nth-child(2) { z-index: 1; }
 .tabela-palpites thead th:nth-child(2) { z-index: 4; }
-/* Linhas destacadas: jogo encerrado (vermelho) ou jogo de hoje (verde) */
-.tabela-palpites tbody tr.linha-encerrada td { background: var(--linha-encerrada); }
-.tabela-palpites tbody tr.linha-hoje td { background: var(--linha-hoje); }
-/* Acerto do palpite vs resultado oficial (só jogos encerrados) */
-.tabela-palpites td.cravou { background: var(--acerto-exato); }
-.tabela-palpites td.cenario { background: var(--acerto-cenario); color: #12100c; }
-.tabela-palpites td.erro { background: var(--acerto-erro); }
-.tabela-palpites td .mk { font-weight: 700; }
+.tabela-palpites td:nth-child(2) strong {
+  display: inline-block;
+  padding: .1rem .5rem;
+  border-radius: 999px;
+  background: var(--vidro);
+  color: var(--destaque);
+}
+/* Hover de linha sutil (não briga com fundos fixos/de acerto) */
+.tabela-palpites tbody tr:hover td { filter: brightness(1.08); }
+/* "Jogo de hoje" (sem resultado): acento esmeralda na borda esquerda + confronto realçado */
+.tabela-palpites tbody tr.linha-hoje td:first-child {
+  box-shadow: inset 3px 0 0 var(--esmeralda);
+  color: var(--esmeralda);
+  font-weight: 600;
+}
+/* Acerto do palpite: tinta suave + marcador forte */
+.tabela-palpites td.cravou { background: var(--acerto-exato-suave); }
+.tabela-palpites td.cenario { background: var(--acerto-cenario-suave); }
+.tabela-palpites td.erro { background: var(--acerto-erro-suave); }
+.tabela-palpites td.cravou .mk { color: var(--mk-cravou); }
+.tabela-palpites td.cenario .mk { color: var(--mk-cenario); }
+.tabela-palpites td.erro .mk { color: var(--mk-erro); }
+.tabela-palpites td .mk { font-weight: 800; }
 /* Filtro de fases da aba "Todos os palpites" (reaproveita os pills .subaba) */
 .filtro-fases { display: flex; flex-direction: column; align-items: center; gap: .4rem; margin: 0 0 1rem; }
 .filtro-linha { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .4rem; }
 .filtro-rotulo { color: var(--texto-fraco); font-size: .85rem; min-width: 5.2rem; text-align: right; }
+/* Legenda: chips com as cores suaves novas */
 .legenda-todos { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; margin: 0 0 .8rem; font-size: .85rem; color: var(--texto-fraco); }
 .legenda-todos > span { display: inline-flex; align-items: center; gap: .4rem; }
-.legenda-cor { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--borda); display: inline-block; }
+.legenda-cor { width: 14px; height: 14px; border-radius: 4px; border: 1px solid var(--vidro-borda); display: inline-block; }
+/* Cartões por jogo (mobile) — escondidos por padrão, ligados no breakpoint */
+.cartoes-palpites { display: none; }
+.cartao-jogo {
+  background: var(--vidro);
+  border: 1px solid var(--vidro-borda);
+  border-radius: 14px;
+  padding: .9rem 1rem;
+  margin: 0 0 .9rem;
+}
+.cartao-jogo.hoje { border-left: 3px solid var(--esmeralda); }
+.cartao-cab {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .6rem; margin-bottom: .75rem;
+}
+.cartao-confronto { font-weight: 700; }
+.cartao-jogo.hoje .cartao-confronto { color: var(--esmeralda); }
+.cartao-oficial {
+  background: var(--bg-card);
+  border: 1px solid var(--vidro-borda);
+  border-radius: 999px;
+  padding: .15rem .6rem;
+  font-weight: 700;
+  color: var(--destaque);
+  white-space: nowrap;
+}
+.cartao-chips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .45rem;
+}
+.chip-palpite {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: .4rem;
+  padding: .35rem .6rem;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--vidro-borda);
+  font-size: .9rem;
+}
+.chip-palpite .chip-nome {
+  color: var(--texto-fraco);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.chip-palpite .chip-placar { font-weight: 700; white-space: nowrap; }
+.chip-palpite.cravou { background: var(--acerto-exato-suave); }
+.chip-palpite.cenario { background: var(--acerto-cenario-suave); }
+.chip-palpite.erro { background: var(--acerto-erro-suave); }
+.chip-palpite.cravou .mk { color: var(--mk-cravou); }
+.chip-palpite.cenario .mk { color: var(--mk-cenario); }
+.chip-palpite.erro .mk { color: var(--mk-erro); }
+.chip-palpite .mk { font-weight: 800; }
+@media (max-width: 720px) {
+  .tabela-rolante { display: none; }
+  .cartoes-palpites { display: block; }
+}
 /* Classificação: líder (verde) e lanterninha (vermelho) — reaproveita as cores das linhas */
 tr.linha-lider td { background: var(--linha-hoje); }
 tr.linha-lanterna td { background: var(--linha-encerrada); }

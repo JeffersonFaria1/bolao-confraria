@@ -77,10 +77,10 @@ export function renderTodos(el, estado) {
   const legenda = document.createElement('div');
   legenda.className = 'legenda-todos';
   legenda.innerHTML = `
-    <span><span class="legenda-cor" style="background:var(--acerto-exato)"></span>✓ Cravou (placar exato)</span>
-    <span><span class="legenda-cor" style="background:var(--acerto-cenario)"></span>~ Acertou cenário</span>
-    <span><span class="legenda-cor" style="background:var(--acerto-erro)"></span>✗ Errou</span>
-    <span><span class="legenda-cor" style="background:var(--linha-hoje)"></span>Jogo de hoje</span>
+    <span><span class="legenda-cor" style="background:var(--acerto-exato-suave)"></span>✓ Cravou (placar exato)</span>
+    <span><span class="legenda-cor" style="background:var(--acerto-cenario-suave)"></span>~ Acertou cenário</span>
+    <span><span class="legenda-cor" style="background:var(--acerto-erro-suave)"></span>✗ Errou</span>
+    <span><span class="legenda-cor" style="background:var(--esmeralda)"></span>Jogo de hoje</span>
   `;
   el.appendChild(legenda);
 
@@ -93,6 +93,10 @@ export function renderTodos(el, estado) {
   const wrap = document.createElement('div');
   wrap.className = 'tabela-rolante';
   el.appendChild(wrap);
+
+  const cartoes = document.createElement('div');
+  cartoes.className = 'cartoes-palpites';
+  el.appendChild(cartoes);
 
   // Data de hoje no formato AAAA-MM-DD (horário local = Brasília).
   const agora = new Date();
@@ -120,6 +124,33 @@ export function renderTodos(el, estado) {
         linha.appendChild(b);
       }
       filtro.appendChild(linha);
+    }
+  }
+
+  function desenharCartoes(jogosSeg) {
+    cartoes.innerHTML = '';
+    for (const jogo of jogosSeg) {
+      const oficial = resultados[jogo.id];
+      const oficialTxt = oficial ? `${oficial.mandante}×${oficial.visitante}` : '—';
+      const chips = participantes.map((p) => {
+        const pal = palpites[p.nome]?.[jogo.id];
+        const txt = pal ? `${pal.mandante}×${pal.visitante}` : '—';
+        const cls = classificarPalpite(pal, oficial);
+        const marca = cls ? `<span class="mk">${SIMBOLO[cls]}</span> ` : '';
+        return `<div class="chip-palpite${cls ? ' ' + cls : ''}">
+          <span class="chip-nome">${escapeHtml(exibicao(p))}</span>
+          <span class="chip-placar">${marca}${txt}</span>
+        </div>`;
+      }).join('');
+      const card = document.createElement('div');
+      card.className = 'cartao-jogo' + (!oficial && jogo.data === hoje ? ' hoje' : '');
+      card.innerHTML = `
+        <div class="cartao-cab">
+          <span class="cartao-confronto">${confronto(jogo)}</span>
+          <span class="cartao-oficial">${oficialTxt}</span>
+        </div>
+        <div class="cartao-chips">${chips}</div>`;
+      cartoes.appendChild(card);
     }
   }
 
@@ -158,6 +189,8 @@ export function renderTodos(el, estado) {
     // Fixa também a 2ª coluna (Oficial): mede a largura real da 1ª e passa ao CSS.
     const col1 = tabela.querySelector('thead th:first-child');
     if (col1) tabela.style.setProperty('--col2-left', `${col1.getBoundingClientRect().width}px`);
+
+    desenharCartoes(jogosSeg);
   }
 
   desenharFiltro();
