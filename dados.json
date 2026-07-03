@@ -407,6 +407,18 @@
       "D13": {
         "mandante": 0,
         "visitante": 0
+      },
+      "D14": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 5,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -749,6 +761,18 @@
       "D13": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Lucas": {
@@ -1090,6 +1114,18 @@
       },
       "D13": {
         "mandante": 2,
+        "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 3,
         "visitante": 1
       }
     },
@@ -1433,6 +1469,18 @@
       "D13": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -1775,6 +1823,18 @@
       "D13": {
         "mandante": 1,
         "visitante": 0
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2117,6 +2177,18 @@
       "D13": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -2453,6 +2525,18 @@
         "visitante": 2
       },
       "D13": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
         "mandante": 2,
         "visitante": 1
       }
@@ -2797,6 +2881,18 @@
       "D13": {
         "mandante": 3,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Caio": {
@@ -3135,6 +3231,18 @@
       "D13": {
         "mandante": 1,
         "visitante": 0
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Gabriel": {
@@ -3468,6 +3576,18 @@
       },
       "D13": {
         "mandante": 1,
+        "visitante": 0
+      },
+      "D14": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 4,
+        "visitante": 0
+      },
+      "D16": {
+        "mandante": 2,
         "visitante": 0
       }
     },
@@ -3805,6 +3925,18 @@
         "visitante": 1
       },
       "D13": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "D14": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
         "mandante": 2,
         "visitante": 0
       }
@@ -4145,6 +4277,18 @@
       "D13": {
         "mandante": 1,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -4471,6 +4615,18 @@
       "D13": {
         "mandante": 3,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 3,
+        "visitante": 0
       }
     },
     "Ricardo": {
@@ -4795,6 +4951,18 @@
         "visitante": 1
       },
       "D13": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "D16": {
         "mandante": 2,
         "visitante": 1
       }
@@ -5131,6 +5299,18 @@
       "D13": {
         "mandante": 2,
         "visitante": 1
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Luiz Gabriel": {
@@ -5393,6 +5573,18 @@
       "D13": {
         "mandante": 2,
         "visitante": 0
+      },
+      "D14": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "D15": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "D16": {
+        "mandante": 1,
+        "visitante": 2
       }
     }
   },
