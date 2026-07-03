@@ -17,6 +17,16 @@ function bloco(titulo) {
   return w;
 }
 
+// Card de destaque: rótulo pequeno + valor (headline) + sub-linha opcional (métrica).
+function tile(rotulo, valor, sub) {
+  const d = document.createElement('div');
+  d.className = 'stat-tile';
+  d.innerHTML = `<div class="rotulo">${rotulo}</div><div class="valor"></div>${sub ? '<div class="sub"></div>' : ''}`;
+  d.querySelector('.valor').textContent = valor;
+  if (sub) d.querySelector('.sub').textContent = sub;
+  return d;
+}
+
 function abaAproveitamento(estado) {
   const el = document.createElement('div');
   const apr = aproveitamento(estado.dados, estado.jogos);
@@ -46,11 +56,13 @@ function abaAproveitamento(estado) {
 
   const grid = document.createElement('div');
   grid.className = 'painel-destaques';
-  const tile = (r, v) => { const d = document.createElement('div'); d.className = 'stat-tile'; d.innerHTML = `<div class="rotulo">${r}</div><div class="valor"></div>`; d.querySelector('.valor').textContent = v; return d; };
+  const peQuenteOk = apr.peQuente && apr.peQuente.sequenciaMax > 0;
   grid.append(
-    tile('🎯 Melhor cravador', apr.melhorCravador ? `${apr.melhorCravador.exibicao} (${apr.melhorCravador.cravou})` : '—'),
+    tile('🎯 Melhor cravador', apr.melhorCravador ? apr.melhorCravador.exibicao : '—', apr.melhorCravador ? `${apr.melhorCravador.cravou} cravadas` : ''),
     tile('🐢 Maior azarão', apr.maiorAzarao ? apr.maiorAzarao.exibicao : '—'),
-    tile('🔥 Mais arrisca', apr.maisArrisca ? `${apr.maisArrisca.exibicao} (${apr.maisArrisca.mediaGolsPalpite.toFixed(1)} gols/palpite)` : '—'),
+    tile('🔥 Mais arrisca', apr.maisArrisca ? apr.maisArrisca.exibicao : '—', apr.maisArrisca ? `${apr.maisArrisca.mediaGolsPalpite.toFixed(1)} gols/palpite` : ''),
+    tile('🧊 Mais cauteloso', apr.maisCauteloso ? apr.maisCauteloso.exibicao : '—', apr.maisCauteloso ? `${apr.maisCauteloso.mediaGolsPalpite.toFixed(1)} gols/palpite` : ''),
+    tile('⚡ Pé quente', peQuenteOk ? apr.peQuente.exibicao : '—', peQuenteOk ? `${apr.peQuente.sequenciaMax} jogos seguidos pontuando` : ''),
   );
   el.appendChild(grid);
   return el;
@@ -66,16 +78,19 @@ function abaRaioX(estado) {
 
   const grid = document.createElement('div');
   grid.className = 'painel-destaques';
-  const tile = (rot, v) => { const d = document.createElement('div'); d.className = 'stat-tile'; d.innerHTML = `<div class="rotulo">${rot}</div><div class="valor"></div>`; d.querySelector('.valor').textContent = v; return d; };
-  const jogoTxt = (j) => j ? `${nomeSel(j.mandante)} × ${nomeSel(j.visitante)} — ${Math.round(j.taxaAcerto * 100)}% acertaram` : '—';
-  const selTxt = (s) => s ? `${nomeSel(s.codigo)} (${Math.round(s.taxa * 100)}% de acerto)` : '—';
+  const jogoVal = (j) => j ? `${nomeSel(j.mandante)} × ${nomeSel(j.visitante)}` : '—';
+  const jogoSub = (j) => j ? `${Math.round(j.taxaAcerto * 100)}% acertaram` : '';
+  const selSub = (s) => s ? `${Math.round(s.taxa * 100)}% de acerto` : '';
   grid.append(
-    tile('🤯 Jogo que mais dividiu', jogoTxt(r.jogoMaisDividiu)),
-    tile('✅ Jogo mais previsível', jogoTxt(r.jogoMaisFacil)),
-    tile('🏆 Campeão mais palpitado', r.campeaoMaisPalpitado ? `${nomeSel(r.campeaoMaisPalpitado.codigo)} (${r.campeaoMaisPalpitado.votos} votos)` : '—'),
-    tile('⚽ Média de gols por jogo', `real ${r.mediaGolsOficial.toFixed(1)} · palpitada ${r.mediaGolsPalpite.toFixed(1)}`),
-    tile('🎯 Seleção mais acertada', selTxt(r.selecaoMaisAcertada)),
-    tile('🎲 Seleção menos acertada', selTxt(r.selecaoMenosAcertada)),
+    tile('🤯 Jogo que mais dividiu', jogoVal(r.jogoMaisDividiu), jogoSub(r.jogoMaisDividiu)),
+    tile('✅ Jogo mais previsível', jogoVal(r.jogoMaisFacil), jogoSub(r.jogoMaisFacil)),
+    tile('🏆 Campeão mais palpitado', r.campeaoMaisPalpitado ? nomeSel(r.campeaoMaisPalpitado.codigo) : '—', r.campeaoMaisPalpitado ? `${r.campeaoMaisPalpitado.votos} votos` : ''),
+    tile('⚽ Média de gols por jogo', `${r.mediaGolsOficial.toFixed(1)} / ${r.mediaGolsPalpite.toFixed(1)}`, 'reais / palpitados'),
+    tile('🎯 Seleção mais acertada', r.selecaoMaisAcertada ? nomeSel(r.selecaoMaisAcertada.codigo) : '—', selSub(r.selecaoMaisAcertada)),
+    tile('🎲 Seleção menos acertada', r.selecaoMenosAcertada ? nomeSel(r.selecaoMenosAcertada.codigo) : '—', selSub(r.selecaoMenosAcertada)),
+    tile('🥅 Placar preferido', r.placarMaisPalpitado ? r.placarMaisPalpitado.placar : '—', r.placarMaisPalpitado ? `palpitado ${r.placarMaisPalpitado.vezes}×` : ''),
+    tile('💎 Cravada mais rara', r.cravadaMaisRara ? `${nomeSel(r.cravadaMaisRara.mandante)} × ${nomeSel(r.cravadaMaisRara.visitante)}` : '—', r.cravadaMaisRara ? (r.cravadaMaisRara.cravadas === 1 ? 'só 1 cravou' : `${r.cravadaMaisRara.cravadas} cravaram`) : ''),
+    tile('📊 Taxa de cravadas', `${Math.round(r.taxaCravadasBolao * 100)}%`, 'dos palpites foram exatos'),
   );
   el.appendChild(grid);
   return el;

@@ -489,7 +489,8 @@ body { padding-bottom: 3rem; }
 }
 .stat-tile:hover { transform: translateY(-3px); border-color: var(--esmeralda); }
 .stat-tile .rotulo { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--texto-fraco); }
-.stat-tile .valor { font-size: 1.35rem; font-weight: 800; margin-top: .2rem; color: var(--destaque); }
+.stat-tile .valor { font-size: 1.35rem; font-weight: 800; margin-top: .2rem; color: var(--destaque); line-height: 1.2; }
+.stat-tile .sub { font-size: .82rem; font-weight: 600; color: var(--texto-fraco); margin-top: .25rem; }
 /* Tema escuro: valores dos destaques com gradiente esmeralda->ouro (no claro fica --destaque solido, legivel) */
 [data-tema="escuro"] .stat-tile .valor {
   background: var(--grad-destaque); -webkit-background-clip: text; background-clip: text; color: transparent;

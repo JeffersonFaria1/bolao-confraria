@@ -142,6 +142,50 @@ export function raioXCompeticao(dados, jogos) {
     }
   }
 
+  // placar mais palpitado (o "queridinho" da Confraria) — todos os palpites, todos os jogos
+  const placares = {};
+  for (const p of participantes) {
+    const pals = dados.palpites?.[p.nome] || {};
+    for (const id of Object.keys(pals)) {
+      const pal = pals[id];
+      if (!pal || pal.mandante == null || pal.visitante == null) continue;
+      const chave = `${pal.mandante}×${pal.visitante}`;
+      placares[chave] = (placares[chave] || 0) + 1;
+    }
+  }
+  const placarMaisPalpitado = Object.keys(placares).length
+    ? Object.entries(placares).map(([placar, vezes]) => ({ placar, vezes })).reduce((a, b) => (b.vezes > a.vezes ? b : a))
+    : null;
+
+  // cravadas por jogo encerrado -> cravada mais rara + taxa geral de cravadas do bolão
+  let totalPalpitesEnc = 0, totalCravadas = 0;
+  const cravadasPorJogo = [];
+  for (const jogo of encerrados) {
+    const res = resultados[jogo.id];
+    let nCrav = 0, nPal = 0;
+    for (const p of participantes) {
+      const pal = dados.palpites?.[p.nome]?.[jogo.id];
+      if (!pal) continue;
+      nPal += 1;
+      if (cravou(pal, res)) nCrav += 1;
+    }
+    totalPalpitesEnc += nPal;
+    totalCravadas += nCrav;
+    if (nCrav > 0) {
+      const lado = lados[jogo.id] || {};
+      cravadasPorJogo.push({
+        jogoId: jogo.id,
+        mandante: lado.mandante ?? jogo.mandante,
+        visitante: lado.visitante ?? jogo.visitante,
+        cravadas: nCrav,
+      });
+    }
+  }
+  const cravadaMaisRara = cravadasPorJogo.length
+    ? cravadasPorJogo.reduce((a, b) => (b.cravadas < a.cravadas ? b : a))
+    : null;
+  const taxaCravadasBolao = totalPalpitesEnc ? totalCravadas / totalPalpitesEnc : 0;
+
   return {
     jogoMaisDividiu: minJ,
     jogoMaisFacil: maxJ,
@@ -150,6 +194,9 @@ export function raioXCompeticao(dados, jogos) {
     campeaoMaisPalpitado,
     mediaGolsOficial: encerrados.length ? golsOficial / encerrados.length : 0,
     mediaGolsPalpite: nPalpite ? golsPalpite / nPalpite : 0,
+    placarMaisPalpitado,
+    cravadaMaisRara,
+    taxaCravadasBolao,
   };
 }
 
@@ -180,17 +227,22 @@ export function confronto(dados, jogos, nomeA, nomeB) {
 export function aproveitamento(dados, jogos) {
   const participantes = dados.participantes || [];
   const resultados = dados.resultados || {};
-  const encerrados = jogos.filter((j) => temResultado(resultados[j.id]));
+  // Ordenado no tempo para medir sequências de jogos pontuando ("pé quente").
+  const encerrados = jogos.filter((j) => temResultado(resultados[j.id])).sort(ordemCronologica);
 
   const porParticipante = participantes.map((p) => {
     const pals = dados.palpites?.[p.nome] || {};
     let cravouN = 0, cenario = 0, erro = 0, pontos = 0, jogosPalpitados = 0, somaGols = 0;
+    let seqAtual = 0, sequenciaMax = 0;
     for (const jogo of encerrados) {
       const pal = pals[jogo.id];
+      const pts = pal ? pontosJogo(pal, resultados[jogo.id]) : 0;
+      // Sequência: um jogo sem palpite ou sem pontuar quebra a corrente.
+      if (pal && pts > 0) { seqAtual += 1; if (seqAtual > sequenciaMax) sequenciaMax = seqAtual; }
+      else seqAtual = 0;
       if (!pal) continue;
       jogosPalpitados += 1;
       somaGols += (pal.mandante || 0) + (pal.visitante || 0);
-      const pts = pontosJogo(pal, resultados[jogo.id]);
       pontos += pts;
       if (cravou(pal, resultados[jogo.id])) cravouN += 1;
       else if (pts === 5) cenario += 1;
@@ -198,7 +250,7 @@ export function aproveitamento(dados, jogos) {
     }
     return {
       nome: p.nome, exibicao: p.apelido || p.nome,
-      cravou: cravouN, cenario, erro, jogosPalpitados, pontos,
+      cravou: cravouN, cenario, erro, jogosPalpitados, pontos, sequenciaMax,
       aproveitamentoPct: jogosPalpitados ? pontos / (jogosPalpitados * 10) : 0,
       mediaGolsPalpite: jogosPalpitados ? somaGols / jogosPalpitados : 0,
     };
@@ -213,5 +265,7 @@ export function aproveitamento(dados, jogos) {
     melhorCravador: maxPor(porParticipante, (p) => p.cravou),
     maiorAzarao: minPor(comPalpite, (p) => p.aproveitamentoPct),
     maisArrisca: maxPor(comPalpite, (p) => p.mediaGolsPalpite),
+    maisCauteloso: minPor(comPalpite, (p) => p.mediaGolsPalpite),
+    peQuente: maxPor(comPalpite, (p) => p.sequenciaMax),
   };
 }
