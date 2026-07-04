@@ -6085,6 +6085,10 @@
       "mandante": 1,
       "visitante": 1,
       "avancou": "mandante"
+    },
+    "O02": {
+      "mandante": 0,
+      "visitante": 3
     }
   },
   "palpitesBonus": {
