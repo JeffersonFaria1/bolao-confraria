@@ -419,6 +419,14 @@
       "D16": {
         "mandante": 1,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Vinícius": {
@@ -773,6 +781,14 @@
       "D16": {
         "mandante": 1,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Lucas": {
@@ -1127,6 +1143,14 @@
       "D16": {
         "mandante": 3,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Murilo": {
@@ -1481,6 +1505,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O01": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Eugênio": {
@@ -1835,6 +1867,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "Raphael": {
@@ -2189,6 +2229,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Wilton": {
@@ -2539,6 +2587,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Renato": {
@@ -2893,6 +2949,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 2
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Caio": {
@@ -3243,6 +3307,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 0,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 4
       }
     },
     "Gabriel": {
@@ -3589,6 +3661,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 3
       }
     },
     "Forlan": {
@@ -3939,6 +4019,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 2
       }
     },
     "João Vitor": {
@@ -4289,6 +4377,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Myckael": {
@@ -4627,6 +4723,14 @@
       "D16": {
         "mandante": 3,
         "visitante": 0
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 4
       }
     },
     "Ricardo": {
@@ -4965,6 +5069,14 @@
       "D16": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "O01": {
+        "mandante": 0,
+        "visitante": 4
       }
     },
     "Carlos H.": {
@@ -5311,6 +5423,14 @@
       "D16": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O02": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -5585,6 +5705,14 @@
       "D16": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O02": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O01": {
+        "mandante": 1,
+        "visitante": 4
       }
     }
   },
