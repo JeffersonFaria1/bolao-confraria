@@ -5939,6 +5939,24 @@
     "D13": {
       "mandante": 2,
       "visitante": 0
+    },
+    "D14": {
+      "mandante": 1,
+      "visitante": 1,
+      "penaltis": {
+        "mandante": 2,
+        "visitante": 4
+      },
+      "avancou": "visitante"
+    },
+    "D16": {
+      "mandante": 1,
+      "visitante": 0
+    },
+    "D15": {
+      "mandante": 1,
+      "visitante": 1,
+      "avancou": "mandante"
     }
   },
   "palpitesBonus": {
