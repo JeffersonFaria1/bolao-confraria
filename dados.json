@@ -6089,6 +6089,10 @@
     "O02": {
       "mandante": 0,
       "visitante": 3
+    },
+    "O01": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
