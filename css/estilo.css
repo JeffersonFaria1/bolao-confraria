@@ -106,11 +106,21 @@ body::before, body::after {
   border-radius: 8px; font-weight: 700; border-bottom: none;
 }
 .conteudo { padding: 1.5rem; max-width: 1000px; margin: 0 auto; }
+/* Título que acompanha uma tabela full-bleed: no desktop (coluna travada em
+   1000px) encosta na mesma borda esquerda dela. No mobile a tabela vira cartões
+   e o título já fica alinhado, então o break-out não se aplica. */
+@media (min-width: 1000px) {
+  .titulo-fullbleed { margin-left: calc(50% - 50vw); margin-right: calc(50% - 50vw); padding: 0 1.5rem; }
+}
 .card {
   background: var(--vidro); border: 1px solid var(--vidro-borda);
   border-radius: 14px; padding: 1rem; margin-bottom: .75rem;
   backdrop-filter: blur(8px);
 }
+/* Formulários de lançamento (aba Bônus, admin): dois cards lado a lado */
+.bonus-formularios { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; align-items: stretch; }
+.bonus-formularios .card { margin-bottom: 0; }
+@media (max-width: 760px) { .bonus-formularios { grid-template-columns: 1fr; } }
 .data-cabecalho {
   margin: 1.6rem 0 .75rem; font-weight: 700; font-size: 1.05rem;
   letter-spacing: .04em; color: var(--texto);
@@ -336,8 +346,11 @@ tbody tr { transition: background .15s; }
   padding: .38rem .6rem; border-radius: 10px;
   background: var(--bg-card); border: 1px solid var(--vidro-borda); font-size: .9rem;
 }
+/* Bônus: chips em coluna única (rótulos longos como "Desemp. Brasil" + valor não
+   cabiam em 2 colunas e vazavam pra fora do card); valor pode quebrar se preciso */
+.cartao-bonus .cartao-chips { grid-template-columns: 1fr; }
 .chip-bonus .chip-rotulo { color: var(--texto-fraco); white-space: nowrap; }
-.chip-bonus .chip-valor { font-weight: 600; text-align: right; }
+.chip-bonus .chip-valor { font-weight: 600; text-align: right; min-width: 0; overflow-wrap: anywhere; }
 .chip-bonus.cravou { background: var(--acerto-exato-suave); }
 .chip-bonus.cravou .mk { color: var(--mk-cravou); font-weight: 800; }
 @media (max-width: 720px) {

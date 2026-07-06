@@ -39,6 +39,7 @@ export function renderBonus(el, estado) {
   const { participantes, palpitesBonus, resultadosBonus } = estado.dados;
 
   const titulo = document.createElement('h2');
+  titulo.className = 'titulo-fullbleed';
   titulo.style.color = 'var(--destaque)';
   titulo.textContent = 'Bônus';
   el.appendChild(titulo);
