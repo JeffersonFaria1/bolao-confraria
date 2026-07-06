@@ -353,6 +353,8 @@ tbody tr { transition: background .15s; }
 .chip-bonus .chip-valor { font-weight: 600; text-align: right; min-width: 0; overflow-wrap: anywhere; }
 .chip-bonus.cravou { background: var(--acerto-exato-suave); }
 .chip-bonus.cravou .mk { color: var(--mk-cravou); font-weight: 800; }
+.chip-bonus.erro { background: var(--acerto-erro-suave); }
+.chip-bonus.erro .mk { color: var(--mk-erro); font-weight: 800; }
 @media (max-width: 720px) {
   .tabela-rolante { display: none; }
   .cartoes-palpites { display: block; }

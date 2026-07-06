@@ -30,9 +30,14 @@ const CAMPOS_BONUS = [
   { k: 'neymarMarca', rot: '🧤 Neymar', f: 'neymar' },
 ];
 
-// Um campo de bônus está correto quando o oficial já existe e bate com o palpite.
-function acertoBonus(campo, palpite, oficial) {
-  return oficial && oficial[campo] != null && palpite && palpite[campo] === oficial[campo];
+const MARCA_BONUS = { cravou: '✓', erro: '✗' };
+
+// Status de um campo de bônus vs o gabarito: '' (sem resultado ainda ou sem
+// palpite), 'cravou' (acertou) ou 'erro' (palpitou e errou).
+function statusBonus(campo, palpite, oficial) {
+  if (!oficial || oficial[campo] == null) return '';
+  if (!palpite || palpite[campo] == null) return '';
+  return palpite[campo] === oficial[campo] ? 'cravou' : 'erro';
 }
 
 export function renderBonus(el, estado) {
@@ -70,8 +75,9 @@ export function renderBonus(el, estado) {
   linhas.forEach(({ p, b, pts }, i) => {
     const f = fmtBonus(b);
     const cels = CAMPOS_BONUS.map((c) => {
-      const ok = acertoBonus(c.k, b, resultadosBonus);
-      return `<td class="${ok ? 'cravou' : ''}">${ok ? '<span class="mk">✓</span> ' : ''}${f[c.f]}</td>`;
+      const st = statusBonus(c.k, b, resultadosBonus);
+      const mk = st ? `<span class="mk">${MARCA_BONUS[st]}</span> ` : '';
+      return `<td class="${st}">${mk}${f[c.f]}</td>`;
     }).join('');
     const selo = `<span class="selo${i === 0 && pts > 0 ? ' lider' : ''}">${pts}</span>`;
     const tr = document.createElement('tr');
@@ -97,10 +103,11 @@ export function renderBonus(el, estado) {
   linhas.forEach(({ p, b, pts }, i) => {
     const f = fmtBonus(b);
     const chips = CAMPOS_BONUS.map((c) => {
-      const ok = acertoBonus(c.k, b, resultadosBonus);
-      return `<div class="chip-bonus${ok ? ' cravou' : ''}">
+      const st = statusBonus(c.k, b, resultadosBonus);
+      const mk = st ? `<span class="mk">${MARCA_BONUS[st]}</span> ` : '';
+      return `<div class="chip-bonus${st ? ' ' + st : ''}">
         <span class="chip-rotulo">${c.rot}</span>
-        <span class="chip-valor">${ok ? '<span class="mk">✓</span> ' : ''}${f[c.f]}</span></div>`;
+        <span class="chip-valor">${mk}${f[c.f]}</span></div>`;
     }).join('');
     const card = document.createElement('div');
     card.className = 'cartao-bonus';
