@@ -3379,6 +3379,14 @@
       "O01": {
         "mandante": 0,
         "visitante": 4
+      },
+      "O03": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O04": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -6213,6 +6221,10 @@
     "O01": {
       "mandante": 0,
       "visitante": 1
+    },
+    "O03": {
+      "mandante": 1,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
@@ -6333,7 +6345,7 @@
     "campeao": null,
     "vice": null,
     "artilheiro": null,
-    "desempenhoBrasil": null,
-    "neymarMarca": null
+    "desempenhoBrasil": "oitavas",
+    "neymarMarca": true
   }
 }
