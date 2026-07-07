@@ -6493,6 +6493,10 @@
     "O06": {
       "mandante": 1,
       "visitante": 4
+    },
+    "O07": {
+      "mandante": 3,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
