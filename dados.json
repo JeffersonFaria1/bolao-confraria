@@ -435,6 +435,14 @@
       "O04": {
         "mandante": 0,
         "visitante": 0
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 3
+      },
+      "O06": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Vinícius": {
@@ -805,6 +813,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Lucas": {
@@ -1175,6 +1191,14 @@
       "O04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -1545,6 +1569,14 @@
       "O04": {
         "mandante": 2,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Eugênio": {
@@ -1915,6 +1947,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2285,6 +2325,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 0,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -2650,6 +2698,14 @@
       },
       "O04": {
         "mandante": 3,
+        "visitante": 2
+      },
+      "O05": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "O06": {
+        "mandante": 2,
         "visitante": 2
       }
     },
@@ -3021,6 +3077,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Caio": {
@@ -3387,6 +3451,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Gabriel": {
@@ -3748,6 +3820,14 @@
       },
       "O04": {
         "mandante": 0,
+        "visitante": 1
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 0
+      },
+      "O06": {
+        "mandante": 2,
         "visitante": 1
       }
     },
@@ -4115,6 +4195,14 @@
       "O04": {
         "mandante": 3,
         "visitante": 2
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 0
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "João Vitor": {
@@ -4481,6 +4569,14 @@
       "O04": {
         "mandante": 1,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O06": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -4835,6 +4931,14 @@
       "O04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 4
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -5187,6 +5291,14 @@
         "visitante": 2
       },
       "O04": {
+        "mandante": 1,
+        "visitante": 1
+      },
+      "O05": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "O06": {
         "mandante": 1,
         "visitante": 1
       }
@@ -5551,6 +5663,14 @@
       "O04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "O06": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Luiz Gabriel": {
@@ -5841,6 +5961,14 @@
       "O04": {
         "mandante": 3,
         "visitante": 1
+      },
+      "O05": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "O06": {
+        "mandante": 1,
+        "visitante": 3
       }
     }
   },
@@ -6229,6 +6357,10 @@
     "O04": {
       "mandante": 2,
       "visitante": 3
+    },
+    "O05": {
+      "mandante": 0,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
