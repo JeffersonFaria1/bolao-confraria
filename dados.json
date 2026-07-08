@@ -6497,6 +6497,15 @@
     "O07": {
       "mandante": 3,
       "visitante": 2
+    },
+    "O08": {
+      "mandante": 0,
+      "visitante": 0,
+      "penaltis": {
+        "mandante": 4,
+        "visitante": 3
+      },
+      "avancou": "mandante"
     }
   },
   "palpitesBonus": {
