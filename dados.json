@@ -2815,6 +2815,10 @@
       "Q01": {
         "mandante": 4,
         "visitante": 2
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -6634,6 +6638,10 @@
     "Q01": {
       "mandante": 2,
       "visitante": 0
+    },
+    "Q02": {
+      "mandante": 2,
+      "visitante": 1
     }
   },
   "palpitesBonus": {
