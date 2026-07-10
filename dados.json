@@ -1243,6 +1243,10 @@
       "Q01": {
         "mandante": 4,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -3589,6 +3593,10 @@
         "visitante": 2
       },
       "Q01": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "Q02": {
         "mandante": 2,
         "visitante": 1
       }
@@ -6209,6 +6217,10 @@
       "Q01": {
         "mandante": 3,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 0
       }
     }
   },
