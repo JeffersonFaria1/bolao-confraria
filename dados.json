@@ -455,6 +455,10 @@
       "Q01": {
         "mandante": 4,
         "visitante": 2
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -845,6 +849,10 @@
       "Q01": {
         "mandante": 3,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Lucas": {
@@ -1625,6 +1633,10 @@
       "Q01": {
         "mandante": 3,
         "visitante": 2
+      },
+      "Q02": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Eugênio": {
@@ -2015,6 +2027,10 @@
       "Q01": {
         "mandante": 2,
         "visitante": 0
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2403,6 +2419,10 @@
         "visitante": 1
       },
       "Q01": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "Q02": {
         "mandante": 2,
         "visitante": 1
       }
@@ -3181,6 +3201,10 @@
       "Q01": {
         "mandante": 2,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Caio": {
@@ -3949,6 +3973,10 @@
       "Q01": {
         "mandante": 1,
         "visitante": 0
+      },
+      "Q02": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Forlan": {
@@ -4335,6 +4363,10 @@
       "Q01": {
         "mandante": 1,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "João Vitor": {
@@ -4721,6 +4753,10 @@
       "Q01": {
         "mandante": 3,
         "visitante": 1
+      },
+      "Q02": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -5095,6 +5131,10 @@
       "Q01": {
         "mandante": 1,
         "visitante": 2
+      },
+      "Q02": {
+        "mandante": 4,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -5467,6 +5507,10 @@
         "visitante": 2
       },
       "Q01": {
+        "mandante": 3,
+        "visitante": 0
+      },
+      "Q02": {
         "mandante": 3,
         "visitante": 0
       }
@@ -5849,6 +5893,10 @@
         "visitante": 1
       },
       "Q01": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "Q02": {
         "mandante": 3,
         "visitante": 1
       }
