@@ -2787,6 +2787,10 @@
       "O08": {
         "mandante": 1,
         "visitante": 3
+      },
+      "Q01": {
+        "mandante": 4,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -6566,6 +6570,10 @@
         "visitante": 3
       },
       "avancou": "mandante"
+    },
+    "Q01": {
+      "mandante": 2,
+      "visitante": 0
     }
   },
   "palpitesBonus": {
