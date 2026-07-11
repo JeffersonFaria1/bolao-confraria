@@ -459,6 +459,14 @@
       "Q02": {
         "mandante": 2,
         "visitante": 0
+      },
+      "Q03": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "Q04": {
+        "mandante": 1,
+        "visitante": 0
       }
     },
     "Vinícius": {
@@ -853,6 +861,14 @@
       "Q02": {
         "mandante": 1,
         "visitante": 0
+      },
+      "Q03": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Lucas": {
@@ -1641,6 +1657,14 @@
       "Q02": {
         "mandante": 1,
         "visitante": 2
+      },
+      "Q03": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -2429,6 +2453,14 @@
       "Q02": {
         "mandante": 2,
         "visitante": 1
+      },
+      "Q03": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -2819,6 +2851,14 @@
       "Q02": {
         "mandante": 2,
         "visitante": 2
+      },
+      "Q03": {
+        "mandante": 2,
+        "visitante": 3
+      },
+      "Q04": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Renato": {
@@ -3988,6 +4028,14 @@
       },
       "Q02": {
         "mandante": 1,
+        "visitante": 0
+      },
+      "Q03": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "Q04": {
+        "mandante": 2,
         "visitante": 0
       }
     },
@@ -5911,6 +5959,14 @@
       "Q02": {
         "mandante": 3,
         "visitante": 1
+      },
+      "Q03": {
+        "mandante": 3,
+        "visitante": 1
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Luiz Gabriel": {
