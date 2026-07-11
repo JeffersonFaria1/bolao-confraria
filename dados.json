@@ -2059,6 +2059,14 @@
       "Q02": {
         "mandante": 2,
         "visitante": 1
+      },
+      "Q03": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -4817,6 +4825,14 @@
       "Q02": {
         "mandante": 2,
         "visitante": 2
+      },
+      "Q03": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "Q04": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Myckael": {
