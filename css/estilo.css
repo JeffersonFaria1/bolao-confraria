@@ -95,6 +95,22 @@ body::before, body::after {
 .faixa-brasil { position: absolute; top: 0; left: 0; right: 0; background: var(--grad-destaque); height: 3px; }
 .cabecalho-direita { display: flex; align-items: center; gap: 1rem; }
 .contador { font-variant-numeric: tabular-nums; color: var(--texto-fraco); font-size: .9rem; }
+
+/* Selinho de publicação automática do site */
+.status-pub {
+  font-size: .78rem;
+  font-weight: 600;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  border: 1px solid var(--vidro-borda);
+  background: var(--vidro);
+  white-space: nowrap;
+}
+.status-pub.agendado   { color: var(--texto-fraco); }
+.status-pub.publicando { color: var(--esmeralda); border-color: var(--esmeralda); animation: pulso-pub 1.2s ease-in-out infinite; }
+.status-pub.publicado  { color: var(--esmeralda); border-color: rgba(16,185,129,.4); }
+.status-pub.erro       { color: var(--mk-erro, #f87171); border-color: var(--mk-erro, #f87171); }
+@keyframes pulso-pub { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
 .btn-tema { background: none; border: 1px solid var(--borda); color: var(--texto); border-radius: 6px; padding: .3rem .5rem; cursor: pointer; }
 .abas { display: flex; flex-wrap: wrap; gap: .25rem; padding: .5rem 1rem; border-bottom: 1px solid var(--borda); }
 .aba {

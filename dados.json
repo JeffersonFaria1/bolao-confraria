@@ -6775,6 +6775,11 @@
       "mandante": 1,
       "visitante": 1,
       "avancou": "visitante"
+    },
+    "Q04": {
+      "mandante": 1,
+      "visitante": 1,
+      "avancou": "mandante"
     }
   },
   "palpitesBonus": {
