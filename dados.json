@@ -6770,6 +6770,11 @@
     "Q02": {
       "mandante": 2,
       "visitante": 1
+    },
+    "Q03": {
+      "mandante": 1,
+      "visitante": 1,
+      "avancou": "visitante"
     }
   },
   "palpitesBonus": {
