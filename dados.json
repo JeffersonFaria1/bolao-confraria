@@ -4897,6 +4897,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -6391,6 +6395,10 @@
         "visitante": 2
       },
       "Q04": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "S01": {
         "mandante": 2,
         "visitante": 1
       }
