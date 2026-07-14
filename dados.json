@@ -873,6 +873,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Lucas": {
@@ -1677,6 +1681,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 0
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Eugênio": {
@@ -2079,6 +2087,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2479,6 +2491,10 @@
         "visitante": 2
       },
       "Q04": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "S01": {
         "mandante": 2,
         "visitante": 1
       }
@@ -3280,6 +3296,10 @@
       },
       "Q04": {
         "mandante": 2,
+        "visitante": 1
+      },
+      "S01": {
+        "mandante": 3,
         "visitante": 1
       }
     },
@@ -4475,6 +4495,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 0,
+        "visitante": 1
       }
     },
     "João Vitor": {
@@ -5259,6 +5283,10 @@
       "Q04": {
         "mandante": 1,
         "visitante": 2
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 3
       }
     },
     "Ricardo": {
