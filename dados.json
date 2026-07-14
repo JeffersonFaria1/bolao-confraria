@@ -4069,6 +4069,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 0
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Forlan": {
