@@ -1279,6 +1279,10 @@
       "Q04": {
         "mandante": 1,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -2895,6 +2899,10 @@
       "Q04": {
         "mandante": 1,
         "visitante": 1
+      },
+      "S01": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Renato": {
