@@ -1291,6 +1291,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 2
+      },
+      "S02": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -3333,6 +3337,10 @@
       "S01": {
         "mandante": 3,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Caio": {
