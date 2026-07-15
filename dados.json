@@ -471,6 +471,10 @@
       "S01": {
         "mandante": 1,
         "visitante": 2
+      },
+      "S02": {
+        "mandante": 4,
+        "visitante": 2
       }
     },
     "Vinícius": {
@@ -877,6 +881,10 @@
       "S01": {
         "mandante": 3,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Lucas": {
@@ -1689,6 +1697,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 0
+      },
+      "S02": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Eugênio": {
@@ -2093,6 +2105,10 @@
         "visitante": 1
       },
       "S01": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "S02": {
         "mandante": 2,
         "visitante": 1
       }
@@ -2501,6 +2517,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -2903,6 +2923,10 @@
       "S01": {
         "mandante": 3,
         "visitante": 2
+      },
+      "S02": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Renato": {
@@ -3707,6 +3731,10 @@
       "Q04": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Gabriel": {
@@ -4103,6 +4131,10 @@
         "visitante": 0
       },
       "S01": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "S02": {
         "mandante": 2,
         "visitante": 1
       }
@@ -4507,6 +4539,10 @@
       "S01": {
         "mandante": 0,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "João Vitor": {
@@ -4909,6 +4945,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 1
+      },
+      "S02": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -5299,6 +5339,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 3
+      },
+      "S02": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -5687,6 +5731,10 @@
         "visitante": 1
       },
       "S01": {
+        "mandante": 3,
+        "visitante": 2
+      },
+      "S02": {
         "mandante": 3,
         "visitante": 2
       }
@@ -6087,6 +6135,10 @@
       "S01": {
         "mandante": 2,
         "visitante": 3
+      },
+      "S02": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Luiz Gabriel": {
@@ -6412,6 +6464,10 @@
       },
       "S01": {
         "mandante": 2,
+        "visitante": 1
+      },
+      "S02": {
+        "mandante": 1,
         "visitante": 1
       }
     }
