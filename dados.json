@@ -6908,6 +6908,10 @@
     "S01": {
       "mandante": 0,
       "visitante": 2
+    },
+    "S02": {
+      "mandante": 1,
+      "visitante": 2
     }
   },
   "palpitesBonus": {
