@@ -475,6 +475,10 @@
       "S02": {
         "mandante": 4,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Vinícius": {
@@ -1703,6 +1707,10 @@
         "visitante": 0
       },
       "S02": {
+        "mandante": 1,
+        "visitante": 2
+      },
+      "T01": {
         "mandante": 1,
         "visitante": 2
       }
@@ -4957,6 +4965,10 @@
       "S02": {
         "mandante": 2,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 1,
+        "visitante": 1
       }
     },
     "Myckael": {
@@ -6146,6 +6158,10 @@
       },
       "S02": {
         "mandante": 3,
+        "visitante": 1
+      },
+      "T01": {
+        "mandante": 2,
         "visitante": 1
       }
     },
