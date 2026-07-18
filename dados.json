@@ -3349,6 +3349,10 @@
       "S02": {
         "mandante": 3,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Caio": {
@@ -4151,6 +4155,10 @@
         "visitante": 1
       },
       "S02": {
+        "mandante": 2,
+        "visitante": 1
+      },
+      "T01": {
         "mandante": 2,
         "visitante": 1
       }
