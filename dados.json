@@ -889,6 +889,10 @@
       "S02": {
         "mandante": 2,
         "visitante": 0
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Lucas": {
@@ -4567,6 +4571,10 @@
       "S02": {
         "mandante": 1,
         "visitante": 1
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 0
       }
     },
     "João Vitor": {
