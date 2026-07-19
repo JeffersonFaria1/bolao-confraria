@@ -2151,6 +2151,10 @@
       "T01": {
         "mandante": 2,
         "visitante": 1
+      },
+      "F01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2565,6 +2569,10 @@
       "T01": {
         "mandante": 3,
         "visitante": 2
+      },
+      "F01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Wilton": {
@@ -2973,6 +2981,10 @@
         "visitante": 1
       },
       "T01": {
+        "mandante": 2,
+        "visitante": 2
+      },
+      "F01": {
         "mandante": 2,
         "visitante": 2
       }
@@ -3798,6 +3810,10 @@
       },
       "T01": {
         "mandante": 2,
+        "visitante": 0
+      },
+      "F01": {
+        "mandante": 3,
         "visitante": 0
       }
     },
@@ -5033,6 +5049,10 @@
       "T01": {
         "mandante": 1,
         "visitante": 1
+      },
+      "F01": {
+        "mandante": 4,
+        "visitante": 2
       }
     },
     "Myckael": {
@@ -5429,6 +5449,10 @@
         "visitante": 1
       },
       "T01": {
+        "mandante": 4,
+        "visitante": 1
+      },
+      "F01": {
         "mandante": 4,
         "visitante": 1
       }
@@ -6577,6 +6601,10 @@
       "T01": {
         "mandante": 2,
         "visitante": 1
+      },
+      "F01": {
+        "mandante": 1,
+        "visitante": 2
       }
     }
   },
