@@ -6976,6 +6976,10 @@
     "S02": {
       "mandante": 1,
       "visitante": 2
+    },
+    "T01": {
+      "mandante": 4,
+      "visitante": 6
     }
   },
   "palpitesBonus": {
