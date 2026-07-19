@@ -7044,6 +7044,11 @@
     "T01": {
       "mandante": 4,
       "visitante": 6
+    },
+    "F01": {
+      "mandante": 0,
+      "visitante": 0,
+      "avancou": "mandante"
     }
   },
   "palpitesBonus": {
@@ -7161,8 +7166,8 @@
     }
   },
   "resultadosBonus": {
-    "campeao": null,
-    "vice": null,
+    "campeao": "ESP",
+    "vice": "ARG",
     "artilheiro": "Kylian Mbappé",
     "desempenhoBrasil": "oitavas",
     "neymarMarca": true
