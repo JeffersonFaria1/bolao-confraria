@@ -1303,6 +1303,10 @@
       "S02": {
         "mandante": 2,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 1,
+        "visitante": 2
       }
     },
     "Murilo": {
@@ -2127,6 +2131,10 @@
       "S02": {
         "mandante": 2,
         "visitante": 1
+      },
+      "T01": {
+        "mandante": 2,
+        "visitante": 1
       }
     },
     "Raphael": {
@@ -2537,6 +2545,10 @@
       "S02": {
         "mandante": 3,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 2
       }
     },
     "Wilton": {
@@ -2943,6 +2955,10 @@
       "S02": {
         "mandante": 2,
         "visitante": 1
+      },
+      "T01": {
+        "mandante": 2,
+        "visitante": 2
       }
     },
     "Renato": {
@@ -3759,6 +3775,10 @@
       "S02": {
         "mandante": 3,
         "visitante": 1
+      },
+      "T01": {
+        "mandante": 2,
+        "visitante": 0
       }
     },
     "Gabriel": {
@@ -5379,6 +5399,10 @@
       "S02": {
         "mandante": 3,
         "visitante": 1
+      },
+      "T01": {
+        "mandante": 4,
+        "visitante": 1
       }
     },
     "Ricardo": {
@@ -5773,6 +5797,10 @@
       "S02": {
         "mandante": 3,
         "visitante": 2
+      },
+      "T01": {
+        "mandante": 3,
+        "visitante": 1
       }
     },
     "Carlos H.": {
@@ -6508,6 +6536,10 @@
       },
       "S02": {
         "mandante": 1,
+        "visitante": 1
+      },
+      "T01": {
+        "mandante": 2,
         "visitante": 1
       }
     }
